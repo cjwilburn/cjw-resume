@@ -47,7 +47,7 @@
       "summary": "Develop websites, applications, and custom CMS (Content Management Systems) for non-profit and community clients.",
       "highlights": [
           "Developed custom RFPMS (request for proposal management system) for evaluating and scoring RFPs.",
-          "Creaded responsive websites."
+          "Created responsive websites."
       ]
     },
     {
@@ -246,7 +246,10 @@
       "keywords": [
         "HTML",
         "CSS",
-        "Javascript"
+        "Javascript",
+        "PHP",
+        "Ruby",
+        "Python"
       ]
     },
     {
