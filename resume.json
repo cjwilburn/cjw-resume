@@ -33,11 +33,28 @@
       {
         "network": "LinkedIn",
         "username": "cjwilburn",
-        "url": "https://soundcloud.com/dandymusicnl"
+        "url": "https://linkedin.com/in/cjwilburn"
       }
     ]
   },
   "work": [
+    {
+        "company": "O3 World",
+        "position": "Developer",
+        "website": "http://o3world.com",
+        "startDate": "2015-02-17",
+        "endDate": "",
+        "summary": "Develop websites and applications for a variety of clients.",
+        "highlights": [
+            "Attended White House LGBTQ Tech & Innovation Summit 2015 & 2016",
+            "Spoke at NationJS 2015",
+            "Spoke At Philly Tech Week Dev Day",
+            "Panelist with Mayor of Philadelphia on Civic Tech",
+            "Panelist for Tech In Color Philly Tech Week event",
+            "Spoke at WordCamp US 2016",
+	        "Spoke at Creative Mornings Philadelphia March 2017"
+        ]
+    },
     {
       "company": "Self-Employed",
       "position": "Freelance Web Developer",
@@ -49,21 +66,6 @@
           "Developed custom RFPMS (request for proposal management system) for evaluating and scoring RFPs.",
           "Created responsive websites."
       ]
-    },
-    {
-        "company": "O3 World",
-        "position": "Developer",
-        "website": "http://o3world.com",
-        "startDate": "2015-02-17",
-        "endDate": "",
-        "summary": "Develop websites and applications for a variety of clients.",
-        "highlights": [
-            "Attended White House LGBTQ Tech & Innovation Summit",
-            "Spoke at NationJS 2015",
-            "Spoke At Philly Tech Week Dev Day",
-            "Panelist with Mayor of Philadelphia on Civic Tech",
-            "Panelist for Tech In Color Philly Tech Week event"
-        ]
     },
     {
         "company": "Wharton School of Business, University of Pennsylvania",
