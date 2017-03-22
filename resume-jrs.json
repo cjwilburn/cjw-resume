@@ -1,0 +1,355 @@
+{
+  "basics": {
+    "name": "Courtney Wilburn",
+    "label": "Programmer",
+    "picture": "http://portfolio.cjwilburn.com/images/courtneyobx.jpg",
+    "email": "cjwilburn@gmail.com",
+    "phone": "(215) 285-7595",
+    "website": "http://cjwilburn.com",
+    "summary": "I have a passion for developing websites and web applications that help people fulfill their potential.",
+    "location": {
+      "address": "411 Belgrade St",
+      "postalCode": "PA 19125",
+      "city": "Philadelphia",
+      "countryCode": "US",
+      "region": "Pennsylvania"
+    },
+    "profiles": [
+      {
+        "network": "Twitter",
+        "username": "cjwilburn",
+        "url": "http://twitter.com/cjwilburn"
+      },
+      {
+        "network": "Github",
+        "username": "cjwilburn",
+        "url": "https://github.com/cjwilburn"
+      },
+      {
+        "network": "Facebook",
+        "username": "courtney.wilburn",
+        "url": "https://www.facebook.com/courtney.wilburn"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "cjwilburn",
+        "url": "https://linkedin.com/in/cjwilburn"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "O3 World",
+      "position": "Developer",
+      "website": "http://o3world.com",
+      "startDate": "2015-02-17",
+      "endDate": "",
+      "summary": "Develop websites and applications for a variety of clients.",
+      "highlights": [
+        "Attended White House LGBTQ Tech & Innovation Summit 2015 & 2016",
+        "Spoke at NationJS 2015",
+        "Spoke At Philly Tech Week Dev Day",
+        "Panelist with Mayor of Philadelphia on Civic Tech",
+        "Panelist for Tech In Color Philly Tech Week event",
+        "Spoke at WordCamp US 2016",
+        "Spoke at Creative Mornings Philadelphia March 2017"
+      ]
+    },
+    {
+      "company": "Wharton School of Business, University of Pennsylvania",
+      "position": "Web Application Developer, Wharton Computing",
+      "website": "http://wharton.upenn.edu",
+      "startDate": "2011-03-15",
+      "endDate": "2015-04-15",
+      "summary": "Worked with team on developing a replacement for the Wharton Course Registration application in ColdFusion 10 and jQuery. Built custom ColdFusion 9 front-end and middle ware for LISTSERV product. Support existing Wharton Computing custom applications. Provide on-call application support as needed."
+    },
+    {
+      "company": "Self-Employed",
+      "position": "Freelance Web Developer",
+      "website": "http://cjwilburn.com",
+      "startDate": "2009-08-01",
+      "endDate": "",
+      "summary": "Develop websites, applications, and custom CMS (Content Management Systems) for non-profit and community clients.",
+      "highlights": [
+        "Developed custom RFPMS (request for proposal management system) for evaluating and scoring RFPs.",
+        "Created responsive websites."
+      ]
+    },
+    {
+      "company": "School of Medicine, University of Pennsylvania, Department of Dermatology",
+      "position": "Systems Analyst, Dermatology Information Systems",
+      "website": "",
+      "startDate": "2007-07-27",
+      "endDate": "2011-03-12",
+      "summary": "Build custom clinical, research, and administrative applications. Maintain Department Websites. Maintain and upgrade research, clinical, and administrative databases and applications. Perform hardware and software updates.  Provide backup hardware, software, and network support for Apple Macintosh and PC users in clinical and research settings. Provide software support for Electronic Medical Record application in Dermatology Outpatient Clinic."
+    },
+    {
+      "company": "Internation Student Exchange Program (ISEP)",
+      "position": "Communication and IS Administrator/Technology Officer/Senior Technology Officer",
+      "website": "",
+      "startDate": "2005-12-05",
+      "endDate": "2007-07-24",
+      "summary": "  Performed hardware and software upgrades on networked office computers. Provided training and basic technical support to staff and member schools. Assessed and recommended hardware, software, and contracting expenditures. Prepared and tracked annual technology budget. Maintained MS Access frontend to T-SQL Server 2000 back-ended databases. Wrote and executed queries and reports for user needs. Administered IIS, Exchange, SQL Server 2000, Terminal Services, and network file servers. Managed nightly server tape backups. Maintained dynamic content for Internet website. Served as organizational and technical project manager in deployment of a new ISEP ASP.NET database information system. Served as liaison between ISEP and software support contractors.",
+      "highlights": [
+        "Began as IS Administrator, eventually promoted twice during my time there: first as 'Technology Officer', and again as 'Senior Technology Officer'."
+      ]
+    },
+    {
+      "company": "Total Document Solutions",
+      "position": "File Clerk",
+      "website": "",
+      "startDate": "2005-10-01",
+      "endDate": "2005-12-01",
+      "summary": "Supported and maintained a large SQL Server 2000 database for TDS client, Zuckerman Spaeder, LLP. Provided in-house training and assistance to legal secretaries while transitioning to new barcode-based universal legal filing system."
+    },
+    {
+      "company": "Johns Hopkins School of Medicine",
+      "position": "Research Data Assistant III",
+      "website": "",
+      "startDate": "2004-09-01",
+      "endDate": "2005-09-01",
+      "summary": "Assisted with research projects and developed study protocols in the department of Hospital Epidemiology and Infection Control. Created MS Access front end/SQL Server 2000 backend databases for data collection and analysis on research studies. Conducted trainings on nosocomial infections and infection control for clinical staff at Johns Hopkins Hospital. Collected environmental samples from patients for analysis. Obtained Institutional Review Board approval for research projects."
+    },
+    {
+      "company": "SPARK Partnership for Service",
+      "position": "Office Manager",
+      "website": "",
+      "startDate": "2004-06-01",
+      "endDate": "2004-09-01",
+      "summary": "Organized meetings and day-to-day office activities. Maintained network server and provided technical support to staff. Ordered and inventoried all office supplies and training materials."
+    },
+    {
+      "company": "Mazzoni Center",
+      "position": "HIV Prevention Counselor",
+      "website": "http://mazzonicenter.org",
+      "startDate": "2002-08-01",
+      "endDate": "2004-05-30",
+      "summary": "Coordinated the implementation of an in-agency rapid HIV testing initiative. Assisted Mazzoni Center in obtaining State of Pennsylvania Level 2 laboratory certification for the administering of exams for blood-borne diseases.  Worked with clinical staff on development of rapid HIV testing procedures and trained clinic staff on protocols.  Sat on a municipal working group to implement rapid testing across Philadelphia. Provided individual HIV counseling and testing services to a diverse clientele at an HIV clinic and at off-site locations.  Maintained MS Access client referral database."
+    },
+    {
+      "company": "Bryn Mawr College",
+      "position": "Teaching Assistant",
+      "website": "https://brynmawr.edu",
+      "startDate": "2002-01-15",
+      "endDate": "2002-05-15",
+      "summary": "Proctored examinations and assisted students in physical anthropology lab sessions. Assisted professor in grading of mid-term and semester examinations. Was responsible for human skeletal remains and replicas for laboratory use."
+    },
+    {
+      "company": "University of Pennsylvania Museum of Archaeology and Anthropology",
+      "position": "Intern",
+      "website": "",
+      "startDate": "2001-05-15",
+      "endDate": "2001-08-30",
+      "summary": "Reorganized skeletal collections in physical anthropology section. Made ancient and modern skeletal replicas for educational use at the University of Pennsylvania casting program. Created MS Access catalog of modern human skeletal remains for the Museum. Completed digital documentation of the Samuel Morton skeletal collection at the University of Pennsylvania."
+    },
+    {
+      "company": "Bryn Mawr College",
+      "position": "Hall Advisor",
+      "website": "https://brynmawr.edu",
+      "startDate": "2000-08-15",
+      "endDate": "2002-05-15",
+      "summary": "Organized hall activities and served as a resource to dorm residents."
+    },
+    {
+      "company": "Lavender Youth Recreation and Information Center",
+      "position": "Intern",
+      "website": "",
+      "startDate": "2000-06-20",
+      "endDate": "2000-08-30",
+      "summary": "Assisted in organization of youth LBGT conference, donor library, and in the development of a youth outreach program through art.  Assisted in development of website for conferences, programs, and organization initiatives using DreamWeaver and Fireworks software packages. Led beginning PC skills classes for youth in afternoon drop-in center."
+    }
+  ],
+  "training": [
+    {
+      "organization": "Johns Hopkins University",
+      "title": "Research Coordinator Certification",
+      "date": "2004-12-01",
+      "summary": "",
+      "courses": [
+        "History of Medical Research",
+        "Obtaining Approval for Research from Institution Review Boards",
+        "Obtaining Informed Consent from Study Participants",
+        "The Importance of Community Involvement in Medical Research"
+      ]
+    },
+    {
+      "organization": "Johns Hopkins University",
+      "title": "Querying a Transact SQL Server 2000 Database",
+      "date": "2005-03-01",
+      "summary": "",
+      "courses": []
+    },
+    {
+      "organization": "Johns Hopkins University",
+      "title": "Administering a SQL Server 2000 Database with Transact SQL",
+      "date": "2005-04-01",
+      "summary": "SQL Server administration",
+      "courses": []
+    },
+    {
+      "organization": "Johns Hopkins University",
+      "title": "Programming a SQL Server 2000 Database with Transact SQL",
+      "date": "2005-06-01",
+      "summary": "Advanced SQL Server skills",
+      "courses": []
+    },
+    {
+      "organization": "University of Pennsylvania School of Medicine",
+      "title": "Epic Care Tools",
+      "date": "2008-12-01",
+      "summary": "Global movement of free coding clubs for young people.",
+      "courses": []
+    },
+    {
+      "organization": "University of Pennsylvania School of Medicine",
+      "title": "Epic Care Advance Course",
+      "date": "2008-11-01",
+      "summary": "Global movement of free coding clubs for young people.",
+      "courses": [
+        "History of Medical Research",
+        "Obtaining Approval for Research from Institution Review Boards",
+        "Obtaining Informed Consent from Study Participants"
+      ]
+    },
+    {
+      "organization": "University of Pennsylvania School of Medicine",
+      "title": "EpicCare Electronic Medical Record System for Providers",
+      "date": "2008-09-01",
+      "summary": "Global movement of free coding clubs for young people.",
+      "courses": [
+        "History of Medical Research",
+        "Obtaining Approval for Research from Institution Review Boards",
+        "Obtaining Informed Consent from Study Participants"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Bryn Mawr College",
+      "area": "Biological & Physical Anthropology",
+      "studyType": "Bachelor of Arts",
+      "startDate": "1998-09-02",
+      "endDate": "2002-05-15",
+      "majorGpa": "3.8",
+      "courses": [
+        "Senior thesis entitled “A Comparison of Traditional and Computer-Based Cranial Measurement Techniques: What Role Can Computers Play in Skeletal Remain Repatriation?” This thesis explored two main topics:  Whether it was possible to use emerging digital technologies to take accurate anthropometric measurements and what legal issues could possibly arise from the use of computer images of repatriated Native American skeletal remains in future physical anthropology research."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Master",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "PHP",
+        "Ruby",
+        "Python"
+      ]
+    },
+    {
+      "name": "Public Speaking",
+      "level": "Master",
+      "keywords": [
+        "Agile",
+        "Web Development",
+        "Project Management",
+        "Back End Development"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "HTML",
+      "fluency": "Proficient"
+    },
+    {
+      "language": "JavaScript",
+      "fluency": "Proficient"
+    },
+    {
+      "language": "CSS",
+      "fluency": "Proficient"
+    },
+    {
+      "language": "PHP",
+      "fluency": "Proficient"
+    },
+    {
+      "language": "SQL",
+      "fluency": "Proficent in mySQL, T-SQL, PostgreSQL, and Oracle"
+    },
+    {
+      "language": "Perl",
+      "fluency": "Some"
+    },
+    {
+      "language": "Python",
+      "fluency": "Proificent"
+    },
+    {
+      "language": ".NET",
+      "fluency": "Proficient in VB and C#"
+    },
+    {
+      "language": "noSQL",
+      "fluency": "Proificent in MongoDB"
+    },
+    {
+      "language": "ColdFusion",
+      "fluency": "Proficient"
+    }
+  ],
+  "software": [
+    {
+      "names": [
+        "Adobe Acrobat",
+        "Flash",
+        "Illustrator",
+        "InDesign",
+        "Dreamweaver",
+        "Contribute",
+        "Fireworks",
+        "Photoshop",
+        "Crystal Reports XI",
+        "Microsoft Exchange Server",
+        "SQL Server",
+        "MS Office",
+        "Open Office",
+        "Oracle Server",
+        "phpMyAdmin",
+        "postfix/dovecot"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Baseball",
+      "keywords": []
+    },
+    {
+      "name": "Cooking",
+      "keywords": []
+    },
+    {
+      "name": "Traveling",
+      "keywords": []
+    },
+    {
+      "name": "Xymurgy",
+      "keywords": []
+    }
+  ],
+  "references": [
+    {
+      "name": "Provided Upon Request",
+      "reference": "References provided upon request."
+    }
+  ]
+}
