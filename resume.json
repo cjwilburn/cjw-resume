@@ -44,12 +44,13 @@
         "website": "http://o3world.com",
         "startDate": "2015-02-17",
         "endDate": "",
-        "summary": "Develop websites and applications for a variety of clients.",
+        "summary": "Develop services, sites, and web applications for a variety of clients. Spearhead move from Vagrant to Docker for local development. Move projects from ad hoc deployment to Jenkins/CI/CD. Migrate web applications, microservices and APIs from PaaS to AWS and other platforms.",
         "highlights": [
+            "Attended LGBTQ Tech & Innovation Summit at Google DC Spring 2017"
             "Attended White House LGBTQ Tech & Innovation Summit 2015 & 2016",
             "Spoke at NationJS 2015",
             "Spoke At Philly Tech Week Dev Day",
-            "Panelist with Mayor of Philadelphia on Civic Tech",
+            "Panelist with Mayor of Philadelphia on Civic Tech for Philly Tech Week 2017",
             "Panelist for Tech In Color Philly Tech Week event",
             "Spoke at WordCamp US 2016",
 	        "Spoke at Creative Mornings Philadelphia March 2017"
