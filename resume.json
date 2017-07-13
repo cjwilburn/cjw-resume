@@ -149,7 +149,7 @@
         "website": "",
         "startDate": "2001-05-15",
         "endDate": "2001-08-30",
-        "summary":  "Reorganized skeletal collections in physical anthropology section. Made ancient and modern skeletal replicas for educational use at the University of Pennsylvania casting program. Created MS Access catalog of modern human skeletal remains for the Museum. Completed digital documentation of the Samuel Morton skeletal collection at the University of Pennsylvania."
+        "summary":  "Reorganized skeletal collections in physical anthropology section. Made ancient and modern skeletal replicas for educational use at the University of Pennsylvania casting program. Created digital catalog of modern human skeletal remains for the Museum. Completed digital documentation of the Samuel Morton skeletal collection at the University of Pennsylvania."
     },
     {
         "company": "Lavender Youth Recreation and Information Center",
@@ -208,7 +208,7 @@
     },
     {
         "organization": "University of Pennsylvania School of Medicine",
-        "title":"Epic Care Advance Course",
+        "title":"Epic Care Advanced Course",
         "date": "2008-11-01",
         "summary": "Global movement of free coding clubs for young people.",
         "courses": [
