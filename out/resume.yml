@@ -1,0 +1,239 @@
+name: 'Courtney Wilburn'
+info:
+meta:
+  format: FRESH@0.6.0
+  version: 0.1.0
+location:
+  city: Philadelphia
+  region: Pennsylvania
+  country: US
+  code: 'PA 19125'
+  address: '411 Belgrade St'
+employment:
+  history:
+    -
+      position: Developer
+      employer: 'O3 World'
+      summary: 'Develop services, sites, and web applications for a variety of clients. Spearhead move from Vagrant to Docker for local development. Move projects from ad hoc deployment to Jenkins/CI/CD. Migrate web applications, microservices and APIs from PaaS to AWS and other platforms.'
+      current: true
+      start: '2015-02-17'
+      end: ""
+      url: 'http://o3world.com'
+      keywords: []
+      highlights:
+        - 'Attended LGBTQ Tech & Innovation Summit at Google DC Spring 2017'
+        - 'Attended White House LGBTQ Tech and Innovation Summit 2015 & 2016'
+        - 'Spoke at NationJS 2015'
+        - 'Spoke At Philly Tech Week Dev Day'
+        - 'Panelist with Mayor of Philadelphia on Civic Tech for Philly Tech Week 2017'
+        - 'Panelist for Tech In Color Philly Tech Week event'
+        - 'Spoke at WordCamp US 2016'
+        - 'Spoke at Creative Mornings Philadelphia March 2017'
+    -
+      position: 'Freelance Web Developer'
+      employer: Self-Employed
+      summary: 'Develop websites, applications, and custom CMS (Content Management Systems) for non-profit and community clients.'
+      current: true
+      start: '2009-08-01'
+      end: ""
+      url: 'http://cjwilburn.com'
+      keywords: []
+      highlights:
+        - 'Developed custom RFPMS (request for proposal management system) for evaluating and scoring RFPs.'
+        - 'Created responsive websites.'
+    -
+      position: 'Web Application Developer, Wharton Computing'
+      employer: 'Wharton School of Business, University of Pennsylvania'
+      summary: 'Worked with team on developing a replacement for the Wharton Course Registration application in ColdFusion 10 and jQuery. Built custom ColdFusion 9 front-end and middle ware for LISTSERV product. Support existing Wharton Computing custom applications. Provide on-call application support as needed.'
+      start: '2011-03-15'
+      end: '2015-04-15'
+      url: 'http://wharton.upenn.edu'
+      keywords: []
+    -
+      position: 'Systems Analyst, Dermatology Information Systems'
+      employer: 'School of Medicine, University of Pennsylvania, Department of Dermatology'
+      summary: 'Build custom clinical, research, and administrative applications. Maintain Department Websites. Maintain and upgrade research, clinical, and administrative databases and applications. Perform hardware and software updates.  Provide backup hardware, software, and network support for Apple Macintosh and PC users in clinical and research settings. Provide software support for Electronic Medical Record application in Dermatology Outpatient Clinic.'
+      start: '2007-07-27'
+      end: '2011-03-12'
+      url: 'https://www.med.upenn.edu'
+      keywords: []
+    -
+      position: 'Communication and IS Administrator/Technology Officer/Senior Technology Officer'
+      employer: 'Internation Student Exchange Program (ISEP)'
+      summary: '  Performed hardware and software upgrades on networked office computers. Provided training and basic technical support to staff and member schools. Assessed and recommended hardware, software, and contracting expenditures. Prepared and tracked annual technology budget. Maintained MS Access frontend to T-SQL Server 2000 back-ended databases. Wrote and executed queries and reports for user needs. Administered IIS, Exchange, SQL Server 2000, Terminal Services, and network file servers. Managed nightly server tape backups. Maintained dynamic content for Internet website. Served as organizational and technical project manager in deployment of a new ISEP ASP.NET database information system. Served as liaison between ISEP and software support contractors.'
+      start: '2005-12-05'
+      end: '2007-07-24'
+      url: 'https://www.isepstudyabroad.org/'
+      keywords: []
+      highlights:
+        - 'Began as IS Administrator, eventually promoted twice during my time there: first as ''Technology Officer'', and again as ''Senior Technology Officer''.'
+    -
+      position: 'File Clerk'
+      employer: 'Total Document Solutions'
+      summary: 'Supported and maintained a large SQL Server 2000 database for TDS client, Zuckerman Spaeder, LLP. Provided in-house training and assistance to legal secretaries while transitioning to new barcode-based universal legal filing system.'
+      start: '2005-10-01'
+      end: '2005-12-01'
+      url: 'http://www.totaldocuments.com/'
+      keywords: []
+    -
+      position: 'Research Data Assistant III'
+      employer: 'Johns Hopkins School of Medicine'
+      summary: 'Assisted with research projects and developed study protocols in the department of Hospital Epidemiology and Infection Control. Created MS Access front end/SQL Server 2000 backend databases for data collection and analysis on research studies. Conducted trainings on nosocomial infections and infection control for clinical staff at Johns Hopkins Hospital. Collected environmental samples from patients for analysis. Obtained Institutional Review Board approval for research projects.'
+      start: '2004-09-01'
+      end: '2005-09-01'
+      url: 'http://www.hopkinsmedicine.org/som/'
+      keywords: []
+    -
+      position: 'Office Manager'
+      employer: 'SPARK Partnership for Service'
+      summary: 'Organized meetings and day-to-day office activities. Maintained network server and provided technical support to staff. Ordered and inventoried all office supplies and training materials.'
+      start: '2004-06-01'
+      end: '2004-09-01'
+      url: 'http://www.sparkpfs.org/'
+      keywords: []
+    -
+      position: 'HIV Prevention Counselor'
+      employer: 'Mazzoni Center'
+      summary: 'Coordinated the implementation of an in-agency rapid HIV testing initiative. Assisted Mazzoni Center in obtaining State of Pennsylvania Level 2 laboratory certification for the administering of exams for blood-borne diseases.  Worked with clinical staff on development of rapid HIV testing procedures and trained clinic staff on protocols.  Sat on a municipal working group to implement rapid testing across Philadelphia. Provided individual HIV counseling and testing services to a diverse clientele at an HIV clinic and at off-site locations.  Maintained MS Access client referral database.'
+      start: '2002-08-01'
+      end: '2004-05-30'
+      url: 'http://mazzonicenter.org'
+      keywords: []
+    -
+      position: 'Hall Advisor'
+      employer: 'Bryn Mawr College'
+      summary: 'Organized hall activities and served as a resource to dorm residents.'
+      start: '2000-08-15'
+      end: '2002-05-15'
+      url: 'https://brynmawr.edu'
+      keywords: []
+    -
+      position: 'Teaching Assistant'
+      employer: 'Bryn Mawr College'
+      summary: 'Proctored examinations and assisted students in physical anthropology lab sessions. Assisted professor in grading of mid-term and semester examinations. Was responsible for human skeletal remains and replicas for laboratory use.'
+      start: '2002-01-15'
+      end: '2002-05-15'
+      url: 'https://brynmawr.edu'
+      keywords: []
+    -
+      position: Intern
+      employer: 'University of Pennsylvania Museum of Archaeology and Anthropology'
+      summary: 'Reorganized skeletal collections in physical anthropology section. Made ancient and modern skeletal replicas for educational use at the University of Pennsylvania casting program. Created digital catalog of modern human skeletal remains for the Museum. Completed digital documentation of the Samuel Morton skeletal collection at the University of Pennsylvania.'
+      start: '2001-05-15'
+      end: '2001-08-30'
+      url: ""
+      keywords: []
+    -
+      position: Intern
+      employer: 'Lavender Youth Recreation and Information Center'
+      summary: 'Assisted in organization of youth LBGT conference, donor library, and in the development of a youth outreach program through art.  Assisted in development of website for conferences, programs, and organization initiatives using DreamWeaver and Fireworks software packages. Led beginning PC skills classes for youth in afternoon drop-in center.'
+      start: '2000-06-20'
+      end: '2000-08-30'
+      url: ""
+      keywords: []
+education:
+  level: ""
+  history:
+    -
+      institution: 'Bryn Mawr College'
+      start: '1998-09-02'
+      end: '2002-05-15'
+      curriculum:
+        - 'Senior thesis entitled “A Comparison of Traditional and Computer-Based Cranial Measurement Techniques: What Role Can Computers Play in Skeletal Remain Repatriation?” This thesis explored two main topics:  Whether it was possible to use emerging digital technologies to take accurate anthropometric measurements and what legal issues could possibly arise from the use of computer images of repatriated Native American skeletal remains in future physical anthropology research.'
+      summary: ""
+      area: 'Biological & Physical Anthropology'
+      studyType: 'Bachelor of Arts'
+skills:
+  sets:
+    -
+      name: 'Web Development'
+      level: Master
+      skills:
+        - HTML
+        - CSS
+        - Javascript
+        - PHP
+        - Ruby
+        - Python
+    -
+      name: 'Public Speaking'
+      level: Master
+      skills:
+        - Agile
+        - 'Web Development'
+        - 'Project Management'
+        - 'Back End Development'
+social:
+  -
+    label: Twitter
+    network: Twitter
+    url: 'http://twitter.com/cjwilburn'
+    user: cjwilburn
+  -
+    label: Github
+    network: Github
+    url: 'https://github.com/cjwilburn'
+    user: cjwilburn
+  -
+    label: Facebook
+    network: Facebook
+    url: 'https://www.facebook.com/courtney.wilburn'
+    user: courtney.wilburn
+  -
+    label: LinkedIn
+    network: LinkedIn
+    url: 'https://linkedin.com/in/cjwilburn'
+    user: cjwilburn
+interests:
+  -
+    name: Baseball
+    keywords: []
+  -
+    name: Cooking
+    keywords: []
+  -
+    name: Traveling
+    keywords: []
+  -
+    name: Xymurgy
+    keywords: []
+testimonials:
+  -
+    name: 'Provided Upon Request'
+    flavor: professional
+    quote: 'References provided upon request.'
+    private: false
+languages:
+  -
+    language: English
+    fluency: 'Native speaker'
+  -
+    language: HTML
+    fluency: Proficient
+  -
+    language: JavaScript
+    fluency: Proficient
+  -
+    language: CSS
+    fluency: Proficient
+  -
+    language: PHP
+    fluency: Proficient
+  -
+    language: SQL
+    fluency: 'Proficent in mySQL, T-SQL, PostgreSQL, and Oracle'
+  -
+    language: Perl
+    fluency: Some
+  -
+    language: Python
+    fluency: Proificent
+  -
+    language: .NET
+    fluency: 'Proficient in VB and C#'
+  -
+    language: noSQL
+    fluency: 'Proificent in MongoDB'
+  -
+    language: ColdFusion
+    fluency: Proficient
