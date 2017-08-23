@@ -1,108 +1,232 @@
+
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
+
     <title>Courtney Wilburn</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <style>html, body, main, section, header, ul, p, h1, h2, h3 {
-  font-family: 'Calibri', 'Helvetica Neue', 'Helvetica', 'Segoe UI', 'sans-serif';
-  font-size: 12px;
-  margin: 0; padding: 0;
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
+    <style>* {
+  box-sizing: border-box;
+}
+
+main {
   display: block;
 }
 
-a {
-  color: #0064BD;
-  text-decoration: none;
+body {
+  font-family: 'Helvetica Neue', 'Helvetica', 'Segoe UI', 'Calibri', 'sans-serif';
+  font-size: 15px;
+  color: #333;
+  line-height: 1.42857143;
+  background-color: #F0F0F0;
+  margin: 0;
+  padding: 0;
 }
 
-a:visited {
-  color: #7B0796;
+/* Typical page borders are awkward when rendered to PDF. */
+body {
+  background-color: #FFFFFF;
+}
+
+/* Adobe or wkhtmltopdf has issues with the <main> tag, so we use <div> for
+the PDF case, <main> for the HTML case, and style both via an ID. */
+#main {
+  background-color: #FFF;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #E6E6E6;
+}
+
+body > #main {
+  border: none;
+}
+
+#container > header {
+  padding-top: 6em;
+  padding-bottom: 1em;
+}
+
+body.pdf #container > header {
+  padding: 0;
+}
+
+#main > #container > section {
+  margin-left: 5em;
+  position: relative;
+  display: block;
+}
+
+span.fa
+{
+  position: absolute;
+  top: 4px;
+  left: -50px;
+  font-size: 30px;
+  color: #BFC1C3;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #EEE;
+}
+
+.tenure, .keywords {
+  font-size: 75%;
+}
+
+h1 {
+  margin: 0;
+  font-size: 46px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #BFC1C3;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+h3 {
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+a, a:visited {
+  color: #428BCA;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover {
   text-decoration: underline;
 }
 
-h2 {
-  text-transform: uppercase;
+.defunct {
+  color: #989898;
+  font-weight: bold;
 }
 
-h3 {
-  font-size: 1em;
+#summary > p > strong {
+  font-size: 1.25em;
 }
 
-hr {
-  border: none;
-  border-top: 1px solid #B3B3B3;
+
+.label-keyword {
+  display: inline-block;
+  background: #7eb0db;
+  color: white;
+  font-size: 0.9em;
+  padding: 5px;
+  border: 1px solid #357ebd;
+  border-radius: 5px;
+  margin-top: 2px;
 }
 
-main {
-  padding: 15px;
-  max-width: 700px;
-  margin: 0 auto;
+.card-skills {
+    position: relative;
+}
+.card-nested {
+    min-height: 0;
+    margin-bottom: 10px;
+    border-width: 1px 0 0 0;
+}
+.card {
+    background: #FFF;
+    border-radius: 3px;
+    padding: 10px;
 }
 
-section {
-  margin-top: 1em;
+.skill-level {
+  border-radius: 3px;
+  position: absolute;
+  top: 10px;
+  bottom: 10px;
+  left: 0;
+  width: 10px;
+  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.5);
 }
-
-li {
-  margin-left: 2em;
-}
-
-h3 {
-  margin-top: 1em;
-}
-
-p, li {
-  text-align: justify;
-}
-
-.tenure {
-  float: right;
-}
-
-thead {
-  display: none;
-}
-
-main > header {
+.skill-level .skill-progress {
+  position: absolute;
+  border-radius: 3px;
+  bottom: 0;
   width: 100%;
-  float: left;
-  margin-bottom: 0;
+  -webkit-transition: height 1s ease;
+}
+.skill-level .skill-progress.beginner {
+  height: 50%;
+  background: #e74c3c;
+}
+.skill-level .skill-progress.intermediate {
+  height: 70%;
+  background: #f1c40f;
+}
+.skill-level .skill-progress.advanced {
+  height: 80%;
+  background: #428bca;
+}
+.skill-level .skill-progress.master {
+  height: 95%;
+  background: #5cb85c;
+}
+.skill-info {
+  margin-left: 10px;
+}
+@media (max-width: 480px) {
+  .skill-info {
+    margin-left: 20px;
+  }
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.card-skills {
   position: relative;
 }
 
+.space-top {
+    margin-top: 10px;
+}
 
-main > header > h1 {
-  float: left;
-  font-size: 1.5em;
+#container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+#elevator-pitch {
+  text-align: center;
+  font-size: 24px;
+  color: #BFC1C3;
   text-transform: uppercase;
-  line-height: 1;
-}
-#contact {
-  float: right;
-  position: absolute;
-  right: 0;
-  bottom: 0;
+  font-weight: normal;
 }
 
-#contact > div {
-  display: inline-block;
-  margin-left: 5px;
-}
-
-h2 > span.fa {
-  text-align: left;
-  margin-right: 3px;
+.res-label {
+  font-style: italic;
 }
 </style>
+
+
   </head>
+
+
   <body>
-    <main>
+    <main id="main"> 
+      <div id="container">
       <header>
+
+
         <h1>Courtney Wilburn</h1>
+
         <div id="contact">
           
           
@@ -117,46 +241,59 @@ h2 > span.fa {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 <hr>
 <section id="skills">
-    <header>
-      <span class="fa fa-lg fa-code"></span>  <h2>skills</h2>
-    </header>
-  <table>
-    <thead>
-      <tr>
-        <th>Skill</th>
-        <th>Keywords</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td style="width: 25%;">Web Development</td>
-        <td class="keywords">HTML CSS Javascript PHP Ruby Python </td>
-      </tr>
-      <tr>
-        <td style="width: 25%;">Public Speaking</td>
-        <td class="keywords">Agile Web Development Project Management Back End Development </td>
-      </tr>
-    </tbody>
-  </table>
+  <header>
+  <h2>Skills</h2>
+  </header>
+  <span class="fa fa-lg fa-code"></span>
+  <ul class="list-unstyled">
+      <li class="card card-nested card-skills">
+        <div class="skill-level" rel="tooltip" title="Master" data-placement="left">
+          <div class="skill-progress master"></div>
+        </div>
+        <div class="skill-info">
+          <strong>Web Development</strong>
+          <div class="space-top labels">
+                <span class="label label-keyword">HTML</span>
+                <span class="label label-keyword">CSS</span>
+                <span class="label label-keyword">Javascript</span>
+                <span class="label label-keyword">PHP</span>
+                <span class="label label-keyword">Ruby</span>
+                <span class="label label-keyword">Python</span>
+          </div>
+        </div>
+      </li>
+      <li class="card card-nested card-skills">
+        <div class="skill-level" rel="tooltip" title="Master" data-placement="left">
+          <div class="skill-progress master"></div>
+        </div>
+        <div class="skill-info">
+          <strong>Public Speaking</strong>
+          <div class="space-top labels">
+                <span class="label label-keyword">Agile</span>
+                <span class="label label-keyword">Web Development</span>
+                <span class="label label-keyword">Project Management</span>
+                <span class="label label-keyword">Back End Development</span>
+          </div>
+        </div>
+      </li>
+  </ul>
 </section>
+
+
+
+
+
+
+
+
+
+
 <hr>
 <section id="employment">
     <header>
-      <span class="fa fa-building"></span>  <h2>employment</h2>
+      <span class="fa fa-lg fa-building"></span>  <h2>employment</h2>
     </header>
 
 <div>
@@ -164,7 +301,7 @@ h2 > span.fa {
     <a href="http://o3world.com">O3 World</a>
     </h3>
     <span class="tenure">2015-02 — Present</span>
-  <p><p>Develop services, sites, and web applications for a variety of clients. Spearhead move from Vagrant to Docker for local development. Move projects from ad hoc deployment to Jenkins/CI/CD. Migrate web applications, microservices and APIs from PaaS to AWS and other platforms.</p>
+  <p><p>Develop services, sites, and web applications for a variety of clients. Spearhead move from Vagrant to Docker for local development. Build and maintain systems infrastructures internally and externally. Build, deploy, and maintain enterprise applications and services in the AWS ecosystem. Move projects from ad hoc deployment to Jenkins/CI/CD. Formalize Devops best practices. Migrate web applications, microservices and APIs from PaaS to AWS and other platforms.</p>
 </p>
   <ul>
     <li>Attended LGBTQ Tech &amp; Innovation Summit at Google DC Spring 2017</li>
@@ -281,22 +418,58 @@ h2 > span.fa {
 </p>
 </div>
 </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
 <hr>
 <section id="education">
     <header>
-      <span class="fa fa-mortar-board"></span>  <h2>education</h2>
+      <span class="fa fa-lg fa-mortar-board"></span>  <h2>education</h2>
     </header>
-    <div>
-      <h3>Bryn Mawr College</h3>
-      <span class="tenure">1998-09 — 2002-05</span>
-      
-      <span class="keywords">Senior thesis entitled “A Comparison of Traditional and Computer-Based Cranial Measurement Techniques: What Role Can Computers Play in Skeletal Remain Repatriation?” This thesis explored two main topics:  Whether it was possible to use emerging digital technologies to take accurate anthropometric measurements and what legal issues could possibly arise from the use of computer images of repatriated Native American skeletal remains in future physical anthropology research. </span>
-    </div>
+<div>
+<h3>
+Bryn Mawr College
+</h3>
+<span class="tenure">1998-09 — 2002-05</span>
+| <span class="keywords">Senior thesis entitled “A Comparison of Traditional and Computer-Based Cranial Measurement Techniques: What Role Can Computers Play in Skeletal Remain Repatriation?” This thesis explored two main topics:  Whether it was possible to use emerging digital technologies to take accurate anthropometric measurements and what legal issues could possibly arise from the use of computer images of repatriated Native American skeletal remains in future physical anthropology research. </span>
+
+</div>
 </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <hr>
 <section id="testimonials">
     <header>
-      <span class="fa fa-thumbs-o-up"></span>  <h2>testimonials</h2>
+      <span class="fa fa-lg fa-quote-left"></span>  <h2>testimonials</h2>
     </header>
     <div>
     <h3><em>Provided Upon Request</em></h3>
@@ -306,7 +479,7 @@ h2 > span.fa {
 <hr>
 <section id="interests">
     <header>
-      <span class="fa fa-thumbs-o-up"></span>  <h2>interests</h2>
+      <span class="fa fa-lg fa-bicycle"></span>  <h2>interests</h2>
     </header>
     <div>
     <h3><em>Baseball</em></h3>
@@ -330,6 +503,7 @@ h2 > span.fa {
     </div>
 </section>
 
+      </div>
     </main>
   </body>
 </html>

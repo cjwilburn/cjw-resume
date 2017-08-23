@@ -15,7 +15,7 @@ Courtney Wilburn
 
 ### *Developer*, [O3 World](http://o3world.com) (2015-02 — Present)
 
-Develop services, sites, and web applications for a variety of clients. Spearhead move from Vagrant to Docker for local development. Move projects from ad hoc deployment to Jenkins/CI/CD. Migrate web applications, microservices and APIs from PaaS to AWS and other platforms.
+Develop services, sites, and web applications for a variety of clients. Spearhead move from Vagrant to Docker for local development. Build and maintain systems infrastructures internally and externally. Build, deploy, and maintain enterprise applications and services in the AWS ecosystem. Move projects from ad hoc deployment to Jenkins/CI/CD. Formalize Devops best practices. Migrate web applications, microservices and APIs from PaaS to AWS and other platforms.
   - Attended LGBTQ Tech & Innovation Summit at Google DC Spring 2017
   - Attended White House LGBTQ Tech and Innovation Summit 2015 & 2016
   - Spoke at NationJS 2015

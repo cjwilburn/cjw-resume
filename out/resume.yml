@@ -14,7 +14,7 @@ employment:
     -
       position: Developer
       employer: 'O3 World'
-      summary: 'Develop services, sites, and web applications for a variety of clients. Spearhead move from Vagrant to Docker for local development. Move projects from ad hoc deployment to Jenkins/CI/CD. Migrate web applications, microservices and APIs from PaaS to AWS and other platforms.'
+      summary: 'Develop services, sites, and web applications for a variety of clients. Spearhead move from Vagrant to Docker for local development. Build and maintain systems infrastructures internally and externally. Build, deploy, and maintain enterprise applications and services in the AWS ecosystem. Move projects from ad hoc deployment to Jenkins/CI/CD. Formalize Devops best practices. Migrate web applications, microservices and APIs from PaaS to AWS and other platforms.'
       current: true
       start: '2015-02-17'
       end: ""
