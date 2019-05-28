@@ -6,7 +6,7 @@
     "email": "cjwilburn@gmail.com",
     "phone": "(215) 285-7595",
     "website": "http://cjwilburn.com",
-    "summary": "I have a passion for developing websites and web applications that help people fulfill their potential.",
+    "summary": "I have a passion for developing web applications and infrastructure.",
     "location": {
       "address": "411 Belgrade St",
       "postalCode": "PA 19125",
@@ -39,12 +39,25 @@
   },
   "work": [
     {
+      "company": "The Wirecutter, A New York Times Company",
+      "position": "Lead DevOps Engineer",
+      "website": "http://thewirecutter.com",
+      "startDate": "2017-10-30",
+      "endDate": "",
+      "summary": "Improved local development and deployment workflows for product-based engineering teams. Lead transition of application platform from monolithic to microservice architecture. Created custom server-side feature flagging process. Standing up microservices on AWS and GCP platforms. Assist in transitioning product teams from waterfall workflow to continuous delivery.",
+      "highlights": [
+          "Attended Data for Black Lives 2019 Conference",
+          "Featured on Github Blog in February 2019",
+          "Featured on Revison Path Podcast"
+      ]
+  },
+    {
         "company": "O3 World",
         "position": "Developer",
         "website": "http://o3world.com",
         "startDate": "2015-02-17",
-        "endDate": "",
-        "summary": "Develop services, sites, and web applications for a variety of clients. Spearhead move from Vagrant to Docker for local development. Build and maintain systems infrastructures internally and externally. Build, deploy, and maintain enterprise applications and services in the AWS ecosystem. Move projects from ad hoc deployment to Jenkins/CI/CD. Formalize Devops best practices. Migrate web applications, microservices and APIs from PaaS to AWS and other platforms.",
+        "endDate": "2017-10-27",
+        "summary": "Developed services, sites, and web applications for a variety of clients. Spearheaded move from Vagrant to Docker for local development. Built and maintained systems infrastructures internally and externally. Built, deployed, and maintained enterprise applications and services in the AWS ecosystem. Moved projects from ad hoc deployment to Jenkins/CI/CD. Formalized DevOps best practices. Migrated web applications, microservices and APIs from PaaS to AWS and other platforms.",
         "highlights": [
             "Attended LGBTQ Tech & Innovation Summit at Google DC Spring 2017",
             "Attended White House LGBTQ Tech and Innovation Summit 2015 & 2016",
@@ -53,7 +66,7 @@
             "Panelist with Mayor of Philadelphia on Civic Tech for Philly Tech Week 2017",
             "Panelist for Tech In Color Philly Tech Week event",
             "Spoke at WordCamp US 2016",
-	        "Spoke at Creative Mornings Philadelphia March 2017"
+	          "Spoke at Creative Mornings Philadelphia March 2017"
         ]
     },
     {
