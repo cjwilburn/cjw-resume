@@ -6,7 +6,7 @@
     "email": "cjwilburn@gmail.com",
     "phone": "(215) 285-7595",
     "website": "http://cjwilburn.com",
-    "summary": "I have a passion for developing web applications and infrastructure.",
+    "summary": "I have a passion for building web applications and infrastructure.",
     "location": {
       "address": "411 Belgrade St",
       "postalCode": "PA 19125",
@@ -44,11 +44,12 @@
       "website": "http://thewirecutter.com",
       "startDate": "2017-10-30",
       "endDate": "",
-      "summary": "Improved local development and deployment workflows for product-based engineering teams. Lead transition of application platform from monolithic to microservice architecture. Created custom server-side feature flagging process. Standing up microservices on AWS and GCP platforms. Assist in transitioning product teams from waterfall workflow to continuous delivery.",
+      "summary": "Improved local development and deployment workflows for product-based engineering teams. Lead transition of application platform from monolithic to microservice architecture. Created custom server-side feature flagging process. Standing up microservices on AWS and GCP platforms. Assist in transitioning product engineering teams from waterfall workflow to continuous delivery.",
       "highlights": [
           "Attended Data for Black Lives 2019 Conference",
           "Featured on Github Blog in February 2019",
-          "Featured on Revison Path Podcast"
+          "Featured on Revison Path Podcast",
+          "On Inaugual List of Most Influental Technologists in Philadelphia"
       ]
   },
     {
