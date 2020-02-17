@@ -491,6 +491,37 @@
       </w:p>
 
 
+      <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="00505903" wsp:rsidP="00C146CA">
+        <w:pPr>
+          <w:rPr>
+            <w:sz-cs w:val="20"/>
+          </w:rPr>
+        </w:pPr>
+        <w:hlink w:dest="mailto:cjwilburn@gmail.com">
+          <w:r wsp:rsidRPr="003876BF">
+            <w:rPr>
+              <w:rStyle w:val="Hyperlink"/>
+              <w:sz w:val="16"/>
+            </w:rPr>
+            <w:t>cjwilburn@gmail.com<w:br/></w:t>
+          </w:r>
+        </w:hlink>
+        <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0">
+          <w:rPr>
+            <w:sz w:val="16"/>
+          </w:rPr>
+          <w:t>(215) 285-7595<w:br/></w:t>
+        </w:r>
+        <w:hlink w:dest="https://cjwilburn.com">
+          <w:r wsp:rsidRPr="003876BF">
+            <w:rPr>
+              <w:rStyle w:val="Hyperlink"/>
+              <w:sz w:val="16"/>
+            </w:rPr>
+            <w:t>https://cjwilburn.com</w:t>
+          </w:r>
+        </w:hlink>
+      </w:p>
 
 
       
@@ -688,6 +719,7 @@
       
       
       
+      
 
 
       <wx:sub-section>
@@ -728,14 +760,14 @@
         </w:tabs>
       </w:pPr>
       <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>Developer, </w:t>
+        <w:t>Lead DevOps Engineer, </w:t>
       </w:r>
-      <w:hlink w:dest="http://o3world.com">
+      <w:hlink w:dest="https://thewirecutter.com">
         <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
           <w:rPr>
             <w:rStyle w:val="Hyperlink"/>
           </w:rPr>
-          <w:t>O3 World</w:t>
+          <w:t>The Wirecutter, A New York Times Company</w:t>
         </w:r>
       </w:hlink>
       <w:r wsp:rsidR="00EA0B64">
@@ -745,7 +777,7 @@
         <w:rPr>
           <w:rStyle w:val="FromTo"/>
         </w:rPr>
-        <w:t>Feb 2015 — Present</w:t>
+        <w:t>Oct 2017 — Present</w:t>
       </w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
@@ -754,7 +786,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Develop services, sites, and web applications for a variety of clients. Spearhead move from Vagrant to Docker for local development. Build and maintain systems infrastructures internally and externally. Build, deploy, and maintain enterprise applications and services in the AWS ecosystem. Move projects from ad hoc deployment to Jenkins/CI/CD. Formalize Devops best practices. Migrate web applications, microservices and APIs from PaaS to AWS and other platforms.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Improved local development and deployment workflows for product-based engineering teams. Lead transition of application platform from monolithic to microservice architecture. Created custom server-side feature flagging process. Standing up microservices on AWS and GCP platforms. Assist in transitioning product engineering teams from waterfall workflow to continuous delivery.</w:t></w:r>
     </w:p>
 
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
@@ -770,7 +802,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Attended LGBTQ Tech &amp; Innovation Summit at Google DC Spring 2017</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Attended Data for Black Lives 2019 Conference</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -785,7 +817,109 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Attended White House LGBTQ Tech and Innovation Summit 2015 &amp; 2016</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Featured on Github Blog in February 2019</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Featured on Revison Path Podcast</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>On Inaugual List of Most Influental Technologists in Philadelphia</w:t></w:r>
+    </w:p>
+
+  </wx:sub-section>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:t>Developer, </w:t>
+      </w:r>
+      <w:hlink w:dest="https://o3world.com">
+        <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
+          <w:t>O3 World</w:t>
+        </w:r>
+      </w:hlink>
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>Feb 2015 — Oct 2017</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Developed services, sites, and web applications for a variety of clients. Spearheaded move from Vagrant to Docker for local development. Built and maintained systems infrastructures internally and externally. Built, deployed, and maintained enterprise applications and services in the AWS ecosystem. Moved projects from ad hoc deployment to Jenkins/CI/CD. Formalized DevOps best practices. Migrated web applications, microservices and APIs from PaaS to AWS and other platforms.</w:t></w:r>
+    </w:p>
+
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Attended LGBTQ Tech &amp;amp; Innovation Summit at Google DC Spring 2017</w:t></w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:pStyle w:val="ListParagraph"/>
+        <w:listPr>
+          <w:ilvl w:val="0"/>
+          <w:ilfo w:val="1"/>
+          <wx:t wx:val="•"/>
+          <wx:font wx:val="Calibri"/>
+        </w:listPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      <w:r><w:rPr></w:rPr><w:t>Attended White House LGBTQ Tech and Innovation Summit 2015 &amp;amp; 2016</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -1088,7 +1222,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Began as IS Administrator, eventually promoted twice during my time there: first as &apos;Technology Officer&apos;, and again as &apos;Senior Technology Officer&apos;.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Began as IS Administrator, eventually promoted twice during my time there: first as &amp;apos;Technology Officer&amp;apos;, and again as &amp;apos;Senior Technology Officer&amp;apos;.</w:t></w:r>
     </w:p>
 
   </wx:sub-section>
@@ -1503,6 +1637,7 @@
       
       
       
+      
       <wx:sub-section>
 
 <wx:pBdrGroup>
@@ -1539,6 +1674,17 @@
       </w:pPr>
       <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
         <w:t>Baseball</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:t>Basketball</w:t>
       </w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">

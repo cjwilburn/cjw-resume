@@ -1,8 +1,15 @@
 name: 'Courtney Wilburn'
 info:
+  label: 'Software Engineer'
+  image: 'http://portfolio.cjwilburn.com/images/courtneyobx.jpg'
+  brief: 'I have a passion for building web applications and infrastructure.'
+contact:
+  email: cjwilburn@gmail.com
+  phone: '(215) 285-7595'
+  website: 'https://cjwilburn.com'
 meta:
-  format: FRESH@0.6.0
-  version: 0.1.0
+  format: FRESH@^1.0.0-beta
+  modified: '2020-02-17T00:52:40.065Z'
 location:
   city: Philadelphia
   region: Pennsylvania
@@ -12,13 +19,26 @@ location:
 employment:
   history:
     -
+      position: 'Lead DevOps Engineer'
+      employer: 'The Wirecutter, A New York Times Company'
+      summary: 'Improved local development and deployment workflows for product-based engineering teams. Lead transition of application platform from monolithic to microservice architecture. Created custom server-side feature flagging process. Standing up microservices on AWS and GCP platforms. Assist in transitioning product engineering teams from waterfall workflow to continuous delivery.'
+      current: true
+      start: '2017-10-30'
+      end: ""
+      url: 'https://thewirecutter.com'
+      keywords: []
+      highlights:
+        - 'Attended Data for Black Lives 2019 Conference'
+        - 'Featured on Github Blog in February 2019'
+        - 'Featured on Revison Path Podcast'
+        - 'On Inaugual List of Most Influental Technologists in Philadelphia'
+    -
       position: Developer
       employer: 'O3 World'
-      summary: 'Develop services, sites, and web applications for a variety of clients. Spearhead move from Vagrant to Docker for local development. Build and maintain systems infrastructures internally and externally. Build, deploy, and maintain enterprise applications and services in the AWS ecosystem. Move projects from ad hoc deployment to Jenkins/CI/CD. Formalize Devops best practices. Migrate web applications, microservices and APIs from PaaS to AWS and other platforms.'
-      current: true
+      summary: 'Developed services, sites, and web applications for a variety of clients. Spearheaded move from Vagrant to Docker for local development. Built and maintained systems infrastructures internally and externally. Built, deployed, and maintained enterprise applications and services in the AWS ecosystem. Moved projects from ad hoc deployment to Jenkins/CI/CD. Formalized DevOps best practices. Migrated web applications, microservices and APIs from PaaS to AWS and other platforms.'
       start: '2015-02-17'
-      end: ""
-      url: 'http://o3world.com'
+      end: '2017-10-27'
+      url: 'https://o3world.com'
       keywords: []
       highlights:
         - 'Attended LGBTQ Tech & Innovation Summit at Google DC Spring 2017'
@@ -167,7 +187,7 @@ social:
   -
     label: Twitter
     network: Twitter
-    url: 'http://twitter.com/cjwilburn'
+    url: 'https://twitter.com/cjwilburn'
     user: cjwilburn
   -
     label: Github
@@ -187,6 +207,9 @@ social:
 interests:
   -
     name: Baseball
+    keywords: []
+  -
+    name: Basketball
     keywords: []
   -
     name: Cooking
