@@ -1,374 +1,169 @@
-
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-
     <title>Courtney Wilburn</title>
-
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
-
-    <style>
-* {
-  box-sizing: border-box;
-}
-
-main {
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <style>html, body, main, section, header, ul, p, h1, h2, h3 {
+  font-family: 'Calibri', 'Helvetica Neue', 'Helvetica', 'Segoe UI', 'sans-serif';
+  font-size: 12px;
+  margin: 0; padding: 0;
   display: block;
 }
 
-body {
-  font-size: 15px;
-  color: #333;
-  line-height: 1.42857143;
-  background-color: #F0F0F0;
-  margin: 0;
-  padding: 0;
-  font-family: 'Open Sans', 'Helvetica Neue', 'Helvetica', 'Segoe UI', 'Calibri', 'sans-serif';
-}
-
-/* Typical page borders are awkward when rendered to PDF. */
-body.pdf {
-  background-color: #FFFFFF;
-}
-
-/* Adobe or wkhtmltopdf has issues with the <main> tag, so we use <div> for
-the PDF case, <main> for the HTML case, and style both via an ID. */
-#main {
-  background-color: #FFF;
-  margin: 10px;
-  padding: 10px;
-  border: 1px solid #E6E6E6;
-}
-
-body.pdf > #main {
-  border: none;
-}
-
-#container > header {
-  padding-top: 6em;
-  padding-bottom: 1em;
-}
-
-body.pdf #container > header {
-  padding: 0;
-}
-
-#main > #container > section {
-  margin-left: 150px;
-  position: relative;
-  display: block;
-}
-
-section > div {
-  margin-bottom: 60px;
-}
-
-span.fa
-{
-  font-size: 56px;
-  position: absolute;
-  top: 37px;
-  transform: translateY(-50%);
-  left: -100px;
-  color: #1a4367;
-}
-
-hr {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border: 0;
-  border-top: 1px solid #EEE;
-}
-
-.tenure, .keywords {
-  font-size: 75%;
-}
-
-h1 {
-  margin: 0;
-  font-size: 46px;
-  display: inline-block;
-}
-
-h2 {
-  font-size: 30px;
-  color: #4376a2;
-  text-transform: uppercase;
-  font-weight: normal;
-  padding-top: 20px;
-  margin-bottom: 60px;
-}
-
-h3 {
-  margin-bottom: 0;
-  font-size: 18px;
-}
-
-a, a:visited {
-  color: #428BCA;
+a {
+  color: #0064BD;
   text-decoration: none;
-  font-weight: bold;
+}
+
+a:visited {
+  color: #7B0796;
 }
 
 a:hover {
   text-decoration: underline;
 }
 
-.defunct {
-  color: #989898;
-  font-weight: bold;
-}
-
-#summary {
-  font-size: 150%;
-  margin-left: 0;
-  padding: 20px 0;
-}
-
-#summary > p > strong {
-  font-size: 1.25em;
-}
-
-#contact {
-  float: right;
-}
-
-#summary > header > .fa-info {
-  font-size: 70px;
-  /*letter-spacing: 5px; PDFs hate letter-spacing */
-  text-transform: uppercase;
-  font-weight: normal;
-  top: 50%;
-  left: -85px;
-  transform: translateY(-50%);
-}
-
-#summary h2 {
-  display: none;
-}
-
-
-.label-keyword {
-  display: inline-block;
-  background: #e8f4ff;
-  color: black;
-  font-size: 0.9em;
-  padding: 5px;
-  border: 1px solid #357ebd;
-  border-radius: 5px;
-  margin-top: 2px;
-  font-weight: bold;
-  text-align: center;
-}
-
-.notes {
-  font-size: 10px;
-  display: block;
-  font-weight: normal;
+h2 {
   text-transform: uppercase;
 }
 
-.card-skills {
-    position: relative;
-}
-.card-nested {
-    min-height: 0;
-    margin-bottom: 10px;
-    border-width: 1px 0 0 0;
-}
-.card {
-    background: #FFF;
-    border-radius: 3px;
-    padding: 10px;
+h3 {
+  font-size: 1em;
 }
 
-.skill-level {
-  border-radius: 3px;
-  position: absolute;
-  top: 10px;
-  bottom: 10px;
-  left: 0;
-  width: 10px;
-  box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.5);
-}
-.skill-level .skill-progress {
-  position: absolute;
-  border-radius: 3px;
-  bottom: 0;
-  width: 100%;
-  -webkit-transition: height 1s ease;
-}
-.skill-level .skill-progress.beginner {
-  height: 50%;
-  background: #e74c3c;
-}
-.skill-level .skill-progress.intermediate {
-  height: 70%;
-  background: #f1c40f;
-}
-.skill-level .skill-progress.advanced {
-  height: 80%;
-  background: #428bca;
-}
-.skill-level .skill-progress.master {
-  height: 95%;
-  background: #5cb85c;
-}
-.skill-info {
-  margin-left: 10px;
-}
-@media (max-width: 480px) {
-  .skill-info {
-    margin-left: 20px;
-  }
-}
-.skill-info > strong {
-  font-weight: 400;
-  font-size: 24px;
-  color: #1d1d1d;
-  line-height: 24px;
+hr {
+  border: none;
+  border-top: 1px solid #B3B3B3;
 }
 
-.list-unstyled {
-  padding-left: 0;
-  list-style: none;
-}
-
-.card-skills {
-  position: relative;
-}
-
-.space-top {
-    margin-top: 5px;
-}
-
-#container {
-  max-width: 800px;
+main {
+  padding: 15px;
+  max-width: 700px;
   margin: 0 auto;
 }
 
-#elevator-pitch {
-  text-align: center;
-  font-size: 24px;
-  color: #BFC1C3;
-  text-transform: uppercase;
-  font-weight: normal;
+section {
+  margin-top: 1em;
 }
 
-.res-label {
-  font-style: italic;
+li {
+  margin-left: 2em;
+}
+
+h3 {
+  margin-top: 1em;
+}
+
+p, li {
+  text-align: justify;
+}
+
+.tenure {
+  float: right;
+}
+
+thead {
+  display: none;
+}
+
+main > header {
+  width: 100%;
+  float: left;
+  margin-bottom: 0;
+  position: relative;
+}
+
+
+main > header > h1 {
+  float: left;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  line-height: 1;
+}
+#contact {
+  float: right;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+#contact > div {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+h2 > span.fa {
+  text-align: left;
+  margin-right: 3px;
 }
 </style>
-
-
   </head>
-
-
   <body>
-    <main id="main"> 
-      <div id="container">
+    <main>
       <header>
-
-
         <h1>Courtney Wilburn</h1>
-
         <div id="contact">
           <div class="email"><a href="mailto:cjwilburn@gmail.com">cjwilburn@gmail.com</a></div>
           <div class="phone">(215) 285-7595</div>
-          <div class="website"><a href="https://cjwilburn.com">https://cjwilburn.com</a></div>
+          <div class="website"><a href="https://cjwilburn.com">cjwilburn.com</a></div>
         </div>
       </header>
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <hr>
 <section id="summary">
-    <header>
-      <span class="fa fa-lg fa-info"></span>  <h2>info</h2>
-    </header>
     I have a passion for building web applications and infrastructure.
 </section>
-
-
-
-
 <hr>
 <section id="skills">
-  <header>
-  <h2>Skills</h2>
-  </header>
-  <span class="fa fa-lg fa-code"></span>
-  <ul class="list-unstyled">
-      <li class="card card-nested card-skills">
-        <div class="skill-level" rel="tooltip" title="Master" data-placement="left">
-          <div class="skill-progress master"></div>
-        </div>
-        <div class="skill-info">
-          <strong>Web Development</strong>
-          <div class="space-top labels">
-                <div class="label label-keyword">
-                  <span class="kw">HTML</span>
-                </div>
-                <div class="label label-keyword">
-                  <span class="kw">CSS</span>
-                </div>
-                <div class="label label-keyword">
-                  <span class="kw">Javascript</span>
-                </div>
-                <div class="label label-keyword">
-                  <span class="kw">PHP</span>
-                </div>
-                <div class="label label-keyword">
-                  <span class="kw">Ruby</span>
-                </div>
-                <div class="label label-keyword">
-                  <span class="kw">Python</span>
-                </div>
-          </div>
-        </div>
-      </li>
-      <li class="card card-nested card-skills">
-        <div class="skill-level" rel="tooltip" title="Master" data-placement="left">
-          <div class="skill-progress master"></div>
-        </div>
-        <div class="skill-info">
-          <strong>Public Speaking</strong>
-          <div class="space-top labels">
-                <div class="label label-keyword">
-                  <span class="kw">Agile</span>
-                </div>
-                <div class="label label-keyword">
-                  <span class="kw">Web Development</span>
-                </div>
-                <div class="label label-keyword">
-                  <span class="kw">Project Management</span>
-                </div>
-                <div class="label label-keyword">
-                  <span class="kw">Back End Development</span>
-                </div>
-          </div>
-        </div>
-      </li>
-  </ul>
+    <header>
+      <span class="fa fa-lg fa-code"></span>  <h2>skills</h2>
+    </header>
+  <table>
+    <thead>
+      <tr>
+        <th>Skill</th>
+        <th>Keywords</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="width: 25%;">Web Development</td>
+        <td class="keywords">HTML CSS Javascript PHP Ruby Python </td>
+      </tr>
+      <tr>
+        <td style="width: 25%;">Public Speaking</td>
+        <td class="keywords">Agile Web Development Project Management Back End Development </td>
+      </tr>
+    </tbody>
+  </table>
 </section>
-
-
-
-
-
-
-
-
-
-
 <hr>
 <section id="employment">
     <header>
-      <span class="fa fa-lg fa-building"></span>  <h2>employment</h2>
+      <span class="fa fa-building"></span>  <h2>employment</h2>
     </header>
 
 <div>
@@ -376,7 +171,7 @@ a:hover {
     <a href="https://thewirecutter.com">The Wirecutter, A New York Times Company</a>
     </h3>
     <span class="tenure">2017-10 — Present</span>
-  <p><p>Improved local development and deployment workflows for product-based engineering teams. Lead transition of application platform from monolithic to microservice architecture. Created custom server-side feature flagging process. Standing up microservices on AWS and GCP platforms. Assist in transitioning product engineering teams from waterfall workflow to continuous delivery.</p>
+  <p><p>Holds regular cross-team and Delivery team 1:1s. Provide technical guidance on product and platform architecture. Improved local development and deployment workflows for product-based engineering teams. Led transition of core Wirecutter application from monolithic to microservice architecture. Created custom server-side feature flagging process. Standing up microservices on AWS and GCP platforms. Assist in transitioning product engineering teams from waterfall workflow to continuous delivery.</p>
 </p>
   <ul>
     <li>Attended Data for Black Lives 2019 Conference</li>
@@ -507,59 +302,22 @@ a:hover {
 </p>
 </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
 <hr>
 <section id="education">
     <header>
-      <span class="fa fa-lg fa-mortar-board"></span>  <h2>education</h2>
+      <span class="fa fa-mortar-board"></span>  <h2>education</h2>
     </header>
-<div>
-<h3>
-Bryn Mawr College
-</h3>
-<span class="tenure">1998-09 — 2002-05</span>
-| <span class="keywords">Senior thesis entitled “A Comparison of Traditional and Computer-Based Cranial Measurement Techniques: What Role Can Computers Play in Skeletal Remain Repatriation?” This thesis explored two main topics:  Whether it was possible to use emerging digital technologies to take accurate anthropometric measurements and what legal issues could possibly arise from the use of computer images of repatriated Native American skeletal remains in future physical anthropology research. </span>
-
-</div>
+    <div>
+      <h3>Bryn Mawr College</h3>
+      <span class="tenure">1998-09 — 2002-05</span>
+      
+      <span class="keywords">Senior thesis entitled “A Comparison of Traditional and Computer-Based Cranial Measurement Techniques: What Role Can Computers Play in Skeletal Remain Repatriation?” This thesis explored two main topics:  Whether it was possible to use emerging digital technologies to take accurate anthropometric measurements and what legal issues could possibly arise from the use of computer images of repatriated Native American skeletal remains in future physical anthropology research. </span>
+    </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <hr>
 <section id="testimonials">
     <header>
-      <span class="fa fa-lg fa-quote-left"></span>  <h2>testimonials</h2>
+      <span class="fa fa-quote-right"></span>  <h2>testimonials</h2>
     </header>
     <div>
     <h3><em>Provided Upon Request</em></h3>
@@ -569,7 +327,7 @@ Bryn Mawr College
 <hr>
 <section id="interests">
     <header>
-      <span class="fa fa-lg fa-bicycle"></span>  <h2>interests</h2>
+      <span class="fa fa-bicycle"></span>  <h2>interests</h2>
     </header>
     <div>
     <h3><em>Baseball</em></h3>
@@ -598,7 +356,6 @@ Bryn Mawr College
     </div>
 </section>
 
-      </div>
     </main>
   </body>
 </html>

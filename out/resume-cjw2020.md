@@ -15,7 +15,7 @@ I have a passion for building web applications and infrastructure.
 
 ### *Lead DevOps Engineer*, [The Wirecutter, A New York Times Company](https://thewirecutter.com) (2017-10 — Present)
 
-Improved local development and deployment workflows for product-based engineering teams. Lead transition of application platform from monolithic to microservice architecture. Created custom server-side feature flagging process. Standing up microservices on AWS and GCP platforms. Assist in transitioning product engineering teams from waterfall workflow to continuous delivery.
+Holds regular cross-team and Delivery team 1:1s. Provide technical guidance on product and platform architecture. Improved local development and deployment workflows for product-based engineering teams. Led transition of core Wirecutter application from monolithic to microservice architecture. Created custom server-side feature flagging process. Standing up microservices on AWS and GCP platforms. Assist in transitioning product engineering teams from waterfall workflow to continuous delivery.
   - Attended Data for Black Lives 2019 Conference
   - Featured on Github Blog in February 2019
   - Featured on Revison Path Podcast
