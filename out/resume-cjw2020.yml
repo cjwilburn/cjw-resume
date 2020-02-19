@@ -9,7 +9,7 @@ contact:
   website: 'https://cjwilburn.com'
 meta:
   format: FRESH@^1.0.0-beta
-  modified: '2020-02-19T01:43:26.218Z'
+  modified: '2020-02-19T01:53:16.382Z'
 location:
   city: Philadelphia
   region: Pennsylvania
@@ -30,8 +30,8 @@ employment:
       highlights:
         - 'Attended Data for Black Lives 2019 Conference'
         - 'Featured on Github Blog in February 2019'
-        - 'Featured on Revison Path Podcast'
-        - 'On Inaugual List of Most Influental Technologists in Philadelphia'
+        - 'Featured on Revision Path Podcast'
+        - 'On Inaugural List of Most Influential Technologists in Philadelphia'
     -
       position: Developer
       employer: 'O3 World'
