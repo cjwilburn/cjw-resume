@@ -39,17 +39,20 @@ Develop websites, applications, and custom CMS (Content Management Systems) for 
   - Developed custom RFPMS (request for proposal management system) for evaluating and scoring RFPs.
   - Created responsive websites.
 
-### *Web Application Developer, Wharton Computing*, [Wharton School of Business, University of Pennsylvania](http://wharton.upenn.edu) (2011-03 — 2015-04)
+### *Web Application Developer, Wharton Computing*, [Wharton School of Business, University of Pennsylvania](http://wharton.upenn.edu) (2011-03 — 2015-02)
 
-Worked with team on developing a replacement for the Wharton Course Registration application in ColdFusion 10 and jQuery. Built custom ColdFusion 9 front-end and middle ware for LISTSERV product. Support existing Wharton Computing custom applications. Provide on-call application support as needed.
+Worked with team on developing a replacement for the Wharton Course Registration application. Built custom front-end and middle ware for LISTSERV product. Support Wharton Computing custom applications and services. Provide on-call application support as needed.
+  - Migrated Wharton core applications using SVN to internally hosted git instance
+  - Implemented local development workflow changes to incorporate use of VMs
+  - Scripted and updated Chef cookbooks to configure core Wharton applications in the cloud
 
 ### *Systems Analyst, Dermatology Information Systems*, [School of Medicine, University of Pennsylvania, Department of Dermatology](https://www.med.upenn.edu) (2007-07 — 2011-03)
 
 Build custom clinical, research, and administrative applications. Maintain Department Websites. Maintain and upgrade research, clinical, and administrative databases and applications. Perform hardware and software updates.  Provide backup hardware, software, and network support for Apple Macintosh and PC users in clinical and research settings. Provide software support for Electronic Medical Record application in Dermatology Outpatient Clinic.
 
-### *Communication and IS Administrator/Technology Officer/Senior Technology Officer*, [Internation Student Exchange Program (ISEP)](https://www.isepstudyabroad.org/) (2005-12 — 2007-07)
+### *Communication and IS Administrator/Technology Officer/Senior Technology Officer*, [International Student Exchange Program (ISEP)](https://www.isepstudyabroad.org/) (2005-12 — 2007-07)
 
-  Performed hardware and software upgrades on networked office computers. Provided training and basic technical support to staff and member schools. Assessed and recommended hardware, software, and contracting expenditures. Prepared and tracked annual technology budget. Maintained MS Access frontend to T-SQL Server 2000 back-ended databases. Wrote and executed queries and reports for user needs. Administered IIS, Exchange, SQL Server 2000, Terminal Services, and network file servers. Managed nightly server tape backups. Maintained dynamic content for Internet website. Served as organizational and technical project manager in deployment of a new ISEP ASP.NET database information system. Served as liaison between ISEP and software support contractors.
+  Performed hardware and software upgrades on networked office computers. Provided training and basic technical support to staff and member schools. Assessed and recommended hardware, software, and contracting expenditures. Prepared and tracked annual hardware, software, and technology training budget. Maintained applications and databases. Wrote and executed queries and reports for user needs. Administered IIS, Exchange, SQL Server 2000, Terminal Services, and network file servers. Managed nightly server tape backups. Maintained dynamic content for Internet website. Managed web in-house developers, designers, and contractors. Served as organizational and technical project manager in deployment of a new information system.
   - Began as IS Administrator, eventually promoted twice during my time there: first as 'Technology Officer', and again as 'Senior Technology Officer'.
 
 ### *File Clerk*, [Total Document Solutions](http://www.totaldocuments.com/) (2005-10 — 2005-12)

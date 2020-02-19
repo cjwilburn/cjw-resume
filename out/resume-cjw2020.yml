@@ -9,7 +9,7 @@ contact:
   website: 'https://cjwilburn.com'
 meta:
   format: FRESH@^1.0.0-beta
-  modified: '2020-02-19T00:57:58.151Z'
+  modified: '2020-02-19T01:43:26.218Z'
 location:
   city: Philadelphia
   region: Pennsylvania
@@ -64,11 +64,15 @@ employment:
     -
       position: 'Web Application Developer, Wharton Computing'
       employer: 'Wharton School of Business, University of Pennsylvania'
-      summary: 'Worked with team on developing a replacement for the Wharton Course Registration application in ColdFusion 10 and jQuery. Built custom ColdFusion 9 front-end and middle ware for LISTSERV product. Support existing Wharton Computing custom applications. Provide on-call application support as needed.'
+      summary: 'Worked with team on developing a replacement for the Wharton Course Registration application. Built custom front-end and middle ware for LISTSERV product. Support Wharton Computing custom applications and services. Provide on-call application support as needed.'
       start: '2011-03-15'
-      end: '2015-04-15'
+      end: '2015-02-15'
       url: 'http://wharton.upenn.edu'
       keywords: []
+      highlights:
+        - 'Migrated Wharton core applications using SVN to internally hosted git instance'
+        - 'Implemented local development workflow changes to incorporate use of VMs'
+        - 'Scripted and updated Chef cookbooks to configure core Wharton applications in the cloud'
     -
       position: 'Systems Analyst, Dermatology Information Systems'
       employer: 'School of Medicine, University of Pennsylvania, Department of Dermatology'
@@ -79,8 +83,8 @@ employment:
       keywords: []
     -
       position: 'Communication and IS Administrator/Technology Officer/Senior Technology Officer'
-      employer: 'Internation Student Exchange Program (ISEP)'
-      summary: '  Performed hardware and software upgrades on networked office computers. Provided training and basic technical support to staff and member schools. Assessed and recommended hardware, software, and contracting expenditures. Prepared and tracked annual technology budget. Maintained MS Access frontend to T-SQL Server 2000 back-ended databases. Wrote and executed queries and reports for user needs. Administered IIS, Exchange, SQL Server 2000, Terminal Services, and network file servers. Managed nightly server tape backups. Maintained dynamic content for Internet website. Served as organizational and technical project manager in deployment of a new ISEP ASP.NET database information system. Served as liaison between ISEP and software support contractors.'
+      employer: 'International Student Exchange Program (ISEP)'
+      summary: '  Performed hardware and software upgrades on networked office computers. Provided training and basic technical support to staff and member schools. Assessed and recommended hardware, software, and contracting expenditures. Prepared and tracked annual hardware, software, and technology training budget. Maintained applications and databases. Wrote and executed queries and reports for user needs. Administered IIS, Exchange, SQL Server 2000, Terminal Services, and network file servers. Managed nightly server tape backups. Maintained dynamic content for Internet website. Managed web in-house developers, designers, and contractors. Served as organizational and technical project manager in deployment of a new information system.'
       start: '2005-12-05'
       end: '2007-07-24'
       url: 'https://www.isepstudyabroad.org/'
