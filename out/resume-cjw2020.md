@@ -45,6 +45,8 @@ Worked with team on developing a replacement for the Wharton Course Registration
   - Migrated Wharton core applications using SVN to internally hosted git instance
   - Implemented local development workflow changes to incorporate use of VMs
   - Scripted and updated Chef cookbooks to configure core Wharton applications in the cloud
+  - Served as database administrator for developers across Wharton Computing
+  - Served as a moderator on official git IRC channel
 
 ### *Systems Analyst, Dermatology Information Systems*, [School of Medicine, University of Pennsylvania, Department of Dermatology](https://www.med.upenn.edu) (2007-07 — 2011-03)
 
