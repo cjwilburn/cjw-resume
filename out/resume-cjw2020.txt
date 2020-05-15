@@ -16,8 +16,8 @@ SKILLS -------------------------------------------------------------------------
 
 EMPLOYMENT ---------------------------------------------------------------------
 
-Lead DevOps Engineer, The Wirecutter, A New York Times Company (2017-10 — Present)
-Holds regular cross-team and Delivery team 1:1s. Provide technical guidance on product and platform architecture. Improved local development and deployment workflows for product-based engineering teams. Led transition of core Wirecutter application from monolithic to microservice architecture. Created custom server-side feature flagging process. Standing up microservices on AWS and GCP platforms. Assist in transitioning product engineering teams from waterfall workflow to continuous delivery.
+Lead DevOps Engineer, Delivery Team, The Wirecutter, A New York Times Company (2017-10 — Present)
+Holds regular cross-team and Delivery team 1:1s. Builds bespoke infrastructure. Leading integration into New York Times infrastructure. Provide technical guidance on product and platform architecture. Improved local development and deployment workflows for product-based engineering teams. Led transition of core Wirecutter application from monolithic to microservice architecture. Created custom server-side feature flagging process. Standing up microservices on AWS and GCP platforms. Assist in transitioning product engineering teams from waterfall development workflow to continuous delivery.
 - Attended Data for Black Lives 2019 Conference
 - Featured on Github Blog in February 2019
 - Featured on Revision Path Podcast
