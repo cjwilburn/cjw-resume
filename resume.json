@@ -285,7 +285,7 @@
       "name": "Cloud Infrastructure",
       "level": "Master",
       "keywords":[
-        "Configuration Management"
+        "Configuration Management",
         "YAML",
         "Terraform",
         "CI/CD",
