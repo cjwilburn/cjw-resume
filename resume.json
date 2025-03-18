@@ -39,7 +39,7 @@
       "website":"https://elastic.co",
       "startDate": "2020-08-24",
       "endDate": "",
-      "summary": "Holding regular 1:1s with team leads and stakeholders, driving initiatives, motivating teams to build integrations, automations, and bespoke tooling ",
+      "summary": "Holds regular 1:1s with IC, fellow team leads, and stakeholders. Driving initiatives, motivating teams to build integrations, automations, and bespoke tooling. Assisted in writing FedRAMP, SOX, and PCI compliance narratives. Drove implementation of serverless product delivery process. Coordinate engineering-wide holiday blackout periods. Ran Cloud product release process for 3 years. Serves as incident commander in on call rotation. Manages on call and host of the week rotations for department. Runs monthly departmental meetings. ",
       "highlights": [
         "Lead team that introduced new standard for cloud product delivery",
         "Led initiative to improve fleet automation",
@@ -58,7 +58,7 @@
       "website": "https://thewirecutter.com",
       "startDate": "2017-10-30",
       "endDate": "2020-08-17",
-      "summary": "Holds regular cross-team and Delivery team 1:1s. Builds bespoke infrastructure. Leading integration into New York Times infrastructure. Provide technical guidance on product and platform architecture. Improved local development and deployment workflows for product-based engineering teams. Led transition of core Wirecutter application from monolithic to microservice architecture. Created custom server-side feature flagging process. Standing up microservices on AWS and GCP platforms. Assist in transitioning product engineering teams from waterfall development workflow to continuous delivery.",
+      "summary": "Held regular cross-team and Delivery team 1:1s. Built bespoke infrastructure. Led integration into New York Times infrastructure. Provided technical guidance on product and platform architecture. Improved local development and deployment workflows for product-based engineering teams. Led transition of core Wirecutter application from monolithic to microservice architecture. Created custom server-side feature flagging process. Standing up microservices on AWS and GCP platforms. Assisted in transitioning product engineering teams from waterfall development workflow to continuous delivery.",
       "highlights": [
           "Member of 2019 & 2020 Kubecon Program Committee",
           "Attended Data for Black Lives 2019 Conference",

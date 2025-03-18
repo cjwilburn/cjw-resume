@@ -1,0 +1,928 @@
+<!doctype html>
+<html>
+	<head>
+	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Courtney Wilburn - CV</title>
+
+	<style>
+	/*! normalize.css 2012-02-07T12:37 UTC - http://github.com/necolas/normalize.css */article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none}[hidden]{display:none}html{font-size:100%;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}html,button,input,select,textarea{font-family:sans-serif}body{margin:0}a:focus{outline:thin dotted}a:hover,a:active{outline:0}h1{font-size:2em;margin:.67em 0}h2{font-size:1.5em;margin:.83em 0}h3{font-size:1.17em;margin:1em 0}h4{font-size:1em;margin:1.33em 0}h5{font-size:.83em;margin:1.67em 0}h6{font-size:.75em;margin:2.33em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:1em 40px}dfn{font-style:italic}mark{background:#ff0;color:#000}p,pre{margin:1em 0}pre,code,kbd,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small{font-size:75%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}dl,menu,ol,ul{margin:1em 0}dd{margin:0 0 0 40px}menu,ol,ul{padding:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0;white-space:normal;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button;*overflow:visible}button[disabled],input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*height:13px;*width:13px}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-decoration,input[type="search"]::-webkit-search-cancel-button{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+
+/* General, overall styling */
+body {
+	background: #F9F9F9;
+	font-size: 0.9em;
+	font-family: 'Lato', sans-serif;
+	margin-bottom: 100px;
+}
+
+em {
+	color: #999;
+}
+
+p {
+	line-height: 1.4;
+}
+
+a {
+	color: #31A6D6;
+}
+
+a:visited {
+	color: #3061A5;
+}
+
+a:hover {
+	color: #3061A5;
+}
+
+ul {
+	margin-bottom: 0;
+}
+section {
+	margin-bottom: 2em;
+}
+
+blockquote {
+	margin: 0;
+	margin-bottom: 1em;
+}
+
+/* End general, overall styling */
+
+/* Header name styling */
+
+header {
+	background: #68B6E3;
+	padding: 50px;
+	margin-bottom: 50px;
+}
+
+header h1 {
+	color: #FFFFFF;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+header h2 {
+	color: #F3F3F3;
+	font-size: 1em;
+	max-width: 700px;
+	margin: 0 auto;
+}
+
+/* End header name styling */
+
+/* Set width of main body of CV */
+.container {
+	max-width: 700px;
+	padding: 0 50px;
+	margin: 0 auto;
+}
+
+/* End */
+
+/* Styling Basics (Name, Contact, About, Profiles) */
+
+#basics {
+	margin-bottom: 10px;
+	border-top: 1px #E2E2E2 solid;
+	border-bottom: 1px #E2E2E2 solid;
+}
+#basics h3 {
+	margin-top: 1.5em;
+	margin-bottom: 10px;
+}
+#basics .contact strong {
+	line-height: 1.3;
+	float: left;
+	width: 80px;
+}
+
+.contact h3 {
+	padding-bottom: 10px;
+}
+
+.website,
+.email,
+.phone {
+	margin-bottom: 10px;
+	float: left;
+	width: 50%;
+}
+
+.summary {
+	padding-top: 5px;
+	clear: both;
+}
+
+#profiles {
+	overflow: hidden;
+}
+
+#profiles .item {
+	float: left;
+	width: 50%;
+}
+
+.username{
+	margin-top: 10px;
+}
+
+/* End 'Basics' Styling */
+
+/* Work and volunteering experience styling */
+
+.work_date,
+.work_position,
+.work_website,
+.institution,
+.study_date,
+.qualification {
+	margin-bottom: 10px;
+	float: left;
+	width: 30%;
+}
+
+.courses {
+	clear: both;
+}
+
+.dissertation {
+	margin-top: 10px;
+}
+
+#work,
+#volunteer {
+	padding-bottom: 5px;
+	border-bottom: 1px #E2E2E2 solid;
+}
+
+#work .item,
+#volunteer .item {
+	margin: 25px 0;
+}
+
+/* End work and volunteering */
+
+/* Skills, languages, interests and references styling */
+
+#skills {
+	margin-bottom: 10px;
+	border-bottom: 1px #E2E2E2 solid;
+	padding-bottom: 5px;
+}
+
+#skills .item,
+#languages .item {
+	margin: 0 0 25px 0;
+}
+
+#interests .item {
+	margin-bottom: 25px;
+}
+
+#skills {
+	overflow: hidden;
+}
+
+#languages .item,
+#interests .item,
+#skills .item {
+	float: left;
+	width: 50%;
+}
+
+#references,
+#interests {
+	clear: both;
+}
+
+/* End styling */
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header>
+	<h1>Courtney Wilburn</h1>
+	<h2>Engineer &amp; Engineering Leader</h2>
+	</header>
+
+	<div id="content" class="container">
+	<section id="basics">
+		<div class="contact">
+		<h3>Contact</h3>
+		<div class="website">
+			<strong>Website</strong>
+			https://cjwilburn.com
+		</div>
+		<div class="email">
+			<strong>Email</strong>
+			courtney@cjwilburn.com
+		</div>
+		<div class="phone">
+			<strong>Phone</strong>
+			(215) 285-7595
+		</div>
+		</div>
+		<div class="summary">
+			<h3>About</h3>
+			<p>I have a passion for building web applications and infrastructure.</p>
+		</div>
+		<section id="profiles">
+			<div class="item">
+				<strong class="network">
+					Bluesky
+				</strong>
+				<div class="url">
+					<a href="https://bsky.app/profile/cjwilburn.engineering">
+						cjwilburn
+					</a>
+				</div>
+			</div>
+			<div class="item">
+				<strong class="network">
+					Github
+				</strong>
+				<div class="url">
+					<a href="https://github.com/cjwilburn">
+						cjwilburn
+					</a>
+				</div>
+			</div>
+			<div class="item">
+				<strong class="network">
+					LinkedIn
+				</strong>
+				<div class="url">
+					<a href="https://linkedin.com/in/cjwilburn">
+						cjwilburn
+					</a>
+				</div>
+			</div>
+		</section>
+	</section>
+
+	<section id="work">
+		<h2>Work</h2>
+		<div class="item">
+			<h3 class="work_name">
+				Elastic, N.V.
+			</h3>
+			
+			<div class="work_position">
+				Senior Engineering Manager
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2020-08-24
+				</span>
+				<span class="endDate">
+					- Present
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="https://elastic.co">https://elastic.co</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Holds regular 1:1s with IC, fellow team leads, and stakeholders. Driving initiatives, motivating teams to build integrations, automations, and bespoke tooling. Assisted in writing FedRAMP, SOX, and PCI compliance narratives. Drove implementation of serverless product delivery process. Coordinate engineering-wide holiday blackout periods. Ran Cloud product release process for 3 years. Serves as incident commander in on call rotation. Manages on call and host of the week rotations for department. Runs monthly departmental meetings. </p>
+			</div>
+			<ul class="highlights">
+				<li>Lead team that introduced new standard for cloud product delivery</li>
+				<li>Led initiative to improve fleet automation</li>
+				<li>Guest for Screaming at the Cloud podcast - 2020</li>
+				<li>Guest on CodeNewbie podcast - 2021</li>
+				<li>Spoke at ElasticON Global - 2021</li>
+				<li>Guest on Maintainable podcast - 2022</li>
+				<li>Speaker at Philly Emerging Technologies for the Enterprise (Philly ETE) - 2022</li>
+				<li>Featured in Elastic Blog July - 2023</li>
+				<li>PowerToFly Panel on Women in Leadership - 2024</li>
+			</ul>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				The Wirecutter, A New York Times Company
+			</h3>
+			
+			<div class="work_position">
+				Lead DevOps Engineer, Delivery Team
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2017-10-30
+				</span>
+				<span class="endDate">
+					- 2020-08-17
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="https://thewirecutter.com">https://thewirecutter.com</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Held regular cross-team and Delivery team 1:1s. Built bespoke infrastructure. Led integration into New York Times infrastructure. Provided technical guidance on product and platform architecture. Improved local development and deployment workflows for product-based engineering teams. Led transition of core Wirecutter application from monolithic to microservice architecture. Created custom server-side feature flagging process. Standing up microservices on AWS and GCP platforms. Assisted in transitioning product engineering teams from waterfall development workflow to continuous delivery.</p>
+			</div>
+			<ul class="highlights">
+				<li>Member of 2019 &amp; 2020 Kubecon Program Committee</li>
+				<li>Attended Data for Black Lives 2019 Conference</li>
+				<li>Featured on Github Blog in February 2019</li>
+				<li>Featured on Revision Path Podcast</li>
+				<li>On Inaugural List of Most Influential Technologists in Philadelphia</li>
+			</ul>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				O3 World
+			</h3>
+			
+			<div class="work_position">
+				Developer
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2015-02-17
+				</span>
+				<span class="endDate">
+					- 2017-10-27
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="https://o3world.com">https://o3world.com</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Developed services, sites, and web applications for a variety of clients. Spearheaded move from Vagrant to Docker for local development. Built and maintained systems infrastructures internally and externally. Built, deployed, and maintained enterprise applications and services in the AWS ecosystem. Moved projects from ad hoc deployment to Jenkins/CI/CD. Formalized DevOps best practices. Migrated web applications, microservices and APIs from PaaS to AWS and other platforms.</p>
+			</div>
+			<ul class="highlights">
+				<li>Attended LGBTQ Tech &amp; Innovation Summit at Google DC Spring 2017</li>
+				<li>Attended White House LGBTQ Tech and Innovation Summit 2015 &amp; 2016</li>
+				<li>Spoke at NationJS 2015</li>
+				<li>Spoke At Philly Tech Week Dev Day</li>
+				<li>Panelist with Mayor of Philadelphia on Civic Tech for Philly Tech Week 2017</li>
+				<li>Panelist for Tech In Color Philly Tech Week event</li>
+				<li>Spoke at WordCamp US 2016</li>
+				<li>Spoke at Creative Mornings Philadelphia March 2017</li>
+			</ul>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				Self-Employed
+			</h3>
+			
+			<div class="work_position">
+				Freelance Web Developer
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2009-08-01
+				</span>
+				<span class="endDate">
+					- 2020-03-15
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="http://cjwilburn.com">http://cjwilburn.com</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Develop websites, applications, and custom CMS (Content Management Systems) for non-profit and community clients.</p>
+			</div>
+			<ul class="highlights">
+				<li>Developed custom RFPMS (request for proposal management system) for evaluating and scoring RFPs.</li>
+				<li>Found cost-saving website hosting solutions for non-profits and small businesses</li>
+				<li>Created responsive websites.</li>
+			</ul>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				Wharton School of Business, University of Pennsylvania
+			</h3>
+			
+			<div class="work_position">
+				Web Application Developer, Wharton Computing
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2011-03-15
+				</span>
+				<span class="endDate">
+					- 2015-02-15
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="http://wharton.upenn.edu">http://wharton.upenn.edu</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Worked with team on developing a replacement for the Wharton Course Registration application. Built custom front-end and middle ware for LISTSERV product. Support Wharton Computing custom applications and services. Provide on-call application support as needed.</p>
+			</div>
+			<ul class="highlights">
+				<li>Migrated Wharton core applications using SVN to internally hosted git instance</li>
+				<li>Implemented local development workflow changes to incorporate use of VMs</li>
+				<li>Scripted and updated Chef cookbooks to configure core Wharton applications in the cloud</li>
+				<li>Served as database administrator for developers across Wharton Computing</li>
+				<li>Served as a moderator on official git IRC channel</li>
+			</ul>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				School of Medicine, University of Pennsylvania, Department of Dermatology
+			</h3>
+			
+			<div class="work_position">
+				Systems Analyst, Dermatology Information Systems
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2007-07-27
+				</span>
+				<span class="endDate">
+					- 2011-03-12
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="https://www.med.upenn.edu">https://www.med.upenn.edu</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Build custom clinical, research, and administrative applications. Maintain Department Websites. Maintain and upgrade research, clinical, and administrative databases and applications. Perform hardware and software updates.  Provide backup hardware, software, and network support for Apple Macintosh and PC users in clinical and research settings. Provide software support for Electronic Medical Record application in Dermatology Outpatient Clinic.</p>
+			</div>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				International Student Exchange Program (ISEP)
+			</h3>
+			
+			<div class="work_position">
+				Communication and IS Administrator/Technology Officer/Senior Technology Officer
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2005-12-05
+				</span>
+				<span class="endDate">
+					- 2007-07-24
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="https://www.isepstudyabroad.org/">https://www.isepstudyabroad.org/</a>
+			</div>
+
+
+			<div class="summary">
+				<p>  Performed hardware and software upgrades on networked office computers. Provided training and basic technical support to staff and member schools. Assessed and recommended hardware, software, and contracting expenditures. Prepared and tracked annual hardware, software, and technology training budget. Maintained applications and databases. Wrote and executed queries and reports for user needs. Administered IIS, Exchange, SQL Server 2000, Terminal Services, and network file servers. Managed nightly server tape backups. Maintained dynamic content for Internet website. Managed web in-house developers, designers, and contractors. Served as organizational and technical project manager in deployment of a new information system.</p>
+			</div>
+			<ul class="highlights">
+				<li>Began as IS Administrator, eventually promoted twice during my time there: first as &#x27;Technology Officer&#x27;, and again as &#x27;Senior Technology Officer&#x27;.</li>
+			</ul>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				Total Document Solutions
+			</h3>
+			
+			<div class="work_position">
+				File Clerk
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2005-10-01
+				</span>
+				<span class="endDate">
+					- 2005-12-01
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="http://www.totaldocuments.com/">http://www.totaldocuments.com/</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Supported and maintained a large SQL Server 2000 database for TDS client, Zuckerman Spaeder, LLP. Provided in-house training and assistance to legal secretaries while transitioning to new barcode-based universal legal filing system.</p>
+			</div>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				Johns Hopkins School of Medicine
+			</h3>
+			
+			<div class="work_position">
+				Research Data Assistant III
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2004-09-01
+				</span>
+				<span class="endDate">
+					- 2005-09-01
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="http://www.hopkinsmedicine.org/som/">http://www.hopkinsmedicine.org/som/</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Assisted with research projects and developed study protocols in the department of Hospital Epidemiology and Infection Control. Created MS Access front end/SQL Server 2000 backend databases for data collection and analysis on research studies. Conducted trainings on nosocomial infections and infection control for clinical staff at Johns Hopkins Hospital. Collected environmental samples from patients for analysis. Obtained Institutional Review Board approval for research projects.</p>
+			</div>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				SPARK Partnership for Service
+			</h3>
+			
+			<div class="work_position">
+				Office Manager
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2004-06-01
+				</span>
+				<span class="endDate">
+					- 2004-09-01
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="http://www.sparkpfs.org/">http://www.sparkpfs.org/</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Organized meetings and day-to-day office activities. Maintained network server and provided technical support to staff. Ordered and inventoried all office supplies and training materials.</p>
+			</div>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				Mazzoni Center
+			</h3>
+			
+			<div class="work_position">
+				HIV Prevention Counselor
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2002-08-01
+				</span>
+				<span class="endDate">
+					- 2004-05-30
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="http://mazzonicenter.org">http://mazzonicenter.org</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Coordinated the implementation of an in-agency rapid HIV testing initiative. Assisted Mazzoni Center in obtaining State of Pennsylvania Level 2 laboratory certification for the administering of exams for blood-borne diseases.  Worked with clinical staff on development of rapid HIV testing procedures and trained clinic staff on protocols.  Sat on a municipal working group to implement rapid testing across Philadelphia. Provided individual HIV counseling and testing services to a diverse clientele at an HIV clinic and at off-site locations.  Maintained MS Access client referral database.</p>
+			</div>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				Bryn Mawr College
+			</h3>
+			
+			<div class="work_position">
+				Hall Advisor
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2000-08-15
+				</span>
+				<span class="endDate">
+					- 2002-05-15
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="https://brynmawr.edu">https://brynmawr.edu</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Organized hall activities and served as a resource to dorm residents.</p>
+			</div>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				Bryn Mawr College
+			</h3>
+			
+			<div class="work_position">
+				Teaching Assistant
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2002-01-15
+				</span>
+				<span class="endDate">
+					- 2002-05-15
+				</span>
+			</div>
+
+			<div class="work_website">
+				<a href="https://brynmawr.edu">https://brynmawr.edu</a>
+			</div>
+
+
+			<div class="summary">
+				<p>Proctored examinations and assisted students in physical anthropology lab sessions. Assisted professor in grading of mid-term and semester examinations. Was responsible for human skeletal remains and replicas for laboratory use.</p>
+			</div>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				University of Pennsylvania Museum of Archaeology and Anthropology
+			</h3>
+			
+			<div class="work_position">
+				Intern
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2001-05-15
+				</span>
+				<span class="endDate">
+					- 2001-08-30
+				</span>
+			</div>
+
+
+
+			<div class="summary">
+				<p>Reorganized skeletal collections in physical anthropology section. Made ancient and modern skeletal replicas for educational use at the University of Pennsylvania casting program. Created digital catalog of modern human skeletal remains for the Museum. Completed digital documentation of the Samuel Morton skeletal collection at the University of Pennsylvania.</p>
+			</div>
+		</div>
+		<div class="item">
+			<h3 class="work_name">
+				Lavender Youth Recreation and Information Center
+			</h3>
+			
+			<div class="work_position">
+				Intern
+			</div>
+
+			<div class="work_date">
+				<span class="startDate">
+					2000-06-20
+				</span>
+				<span class="endDate">
+					- 2000-08-30
+				</span>
+			</div>
+
+
+
+			<div class="summary">
+				<p>Assisted in organization of youth LBGT conference, donor library, and in the development of a youth outreach program through art.  Assisted in development of website for conferences, programs, and organization initiatives using DreamWeaver and Fireworks software packages. Led beginning PC skills classes for youth in afternoon drop-in center.</p>
+			</div>
+		</div>
+	</section>
+
+	
+	<section id="education">
+		<h2>Education</h2>
+		<div class="item">
+			
+			<div class="institution">
+				Bryn Mawr College
+			</div>
+
+			<div class="study_date">
+				<span class="startDate">
+					1998-09-02
+				</span>
+				<span class="endDate">
+					- 2002-05-15
+				</span>
+			</div>
+
+
+			<ul class="courses">
+				<li>Senior thesis entitled “A Comparison of Traditional and Computer-Based Cranial Measurement Techniques: What Role Can Computers Play in Skeletal Remain Repatriation?” This thesis explored two main topics:  Whether it was possible to use emerging digital technologies to take accurate anthropometric measurements and what legal issues could possibly arise from the use of computer images of repatriated Native American skeletal remains in future physical anthropology research.</li>
+			</ul>
+
+		</div>
+	</section>
+	
+	<section id="skills">
+		<h2>Skills</h2>
+		<div class="item">
+			<div class="name">
+				Cloud Infrastructure
+			</div>
+			<div class="level">
+				<em>Master</em>
+			</div>
+			<ul class="keywords">
+				<li>Configuration Management</li>
+				<li>YAML</li>
+				<li>Terraform</li>
+				<li>CI/CD</li>
+				<li>Kubernetes</li>
+				<li>k8s</li>
+				<li>Cloud Native</li>
+			</ul>
+		</div>
+		<div class="item">
+			<div class="name">
+				Web Development
+			</div>
+			<div class="level">
+				<em>Master</em>
+			</div>
+			<ul class="keywords">
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>Javascript</li>
+				<li>PHP</li>
+				<li>Ruby</li>
+				<li>Python</li>
+			</ul>
+		</div>
+		<div class="item">
+			<div class="name">
+				Public Speaking
+			</div>
+			<div class="level">
+				<em>Master</em>
+			</div>
+			<ul class="keywords">
+				<li>Agile</li>
+				<li>Web Development</li>
+				<li>Project Management</li>
+				<li>Back End Development</li>
+			</ul>
+		</div>
+	</section>
+
+	<section id="languages">
+		<h2>Languages</h2>
+		<div class="item">
+			<div class="language">
+				English
+			</div>
+			<div class="level">
+				<em>Native speaker</em>
+			</div>
+		</div>
+		<div class="item">
+			<div class="language">
+				HTML
+			</div>
+			<div class="level">
+				<em>Proficient</em>
+			</div>
+		</div>
+		<div class="item">
+			<div class="language">
+				JavaScript
+			</div>
+			<div class="level">
+				<em>Proficient</em>
+			</div>
+		</div>
+		<div class="item">
+			<div class="language">
+				CSS
+			</div>
+			<div class="level">
+				<em>Proficient</em>
+			</div>
+		</div>
+		<div class="item">
+			<div class="language">
+				PHP
+			</div>
+			<div class="level">
+				<em>Proficient</em>
+			</div>
+		</div>
+		<div class="item">
+			<div class="language">
+				SQL
+			</div>
+			<div class="level">
+				<em>Proficent in mySQL, T-SQL, PostgreSQL, and Oracle</em>
+			</div>
+		</div>
+		<div class="item">
+			<div class="language">
+				Perl
+			</div>
+			<div class="level">
+				<em>Some</em>
+			</div>
+		</div>
+		<div class="item">
+			<div class="language">
+				Python
+			</div>
+			<div class="level">
+				<em>Proificent</em>
+			</div>
+		</div>
+		<div class="item">
+			<div class="language">
+				.NET
+			</div>
+			<div class="level">
+				<em>Proficient in VB and C#</em>
+			</div>
+		</div>
+		<div class="item">
+			<div class="language">
+				noSQL
+			</div>
+			<div class="level">
+				<em>Proificent in MongoDB</em>
+			</div>
+		</div>
+		<div class="item">
+			<div class="language">
+				ColdFusion
+			</div>
+			<div class="level">
+				<em>Proficient</em>
+			</div>
+		</div>
+	</section>
+
+	<section id="interests">
+		<h2>Interests</h2>
+		<div class="item">
+			<div class="name">
+				Baseball
+			</div>
+		</div>
+		<div class="item">
+			<div class="name">
+				Basketball
+			</div>
+		</div>
+		<div class="item">
+			<div class="name">
+				Cooking
+			</div>
+		</div>
+		<div class="item">
+			<div class="name">
+				Traveling
+			</div>
+		</div>
+		<div class="item">
+			<div class="name">
+				Gardening
+			</div>
+		</div>
+	</section>
+	
+	<section id="references">
+		<h2>References</h2>
+		<div class="item">
+			<blockquote class="reference">
+				References provided upon request.
+			</blockquote>
+			<div class="name">
+				— Provided Upon Request
+			</div>
+		</div>
+	</section>
+	
+	</div>
+	</body>
+</html>
