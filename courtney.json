@@ -16,6 +16,11 @@
     },
     "profiles": [
       {
+        "network": "Bluesky",
+        "username": "cjwilburn",
+        "url": "https://bsky.app/profile/cjwilburn.engineering"
+      },
+      {
         "network": "Github",
         "username": "cjwilburn",
         "url": "https://github.com/cjwilburn"
@@ -142,11 +147,55 @@
         "startDate": "2004-09-01",
         "endDate": "2005-09-01",
         "summary": "Assisted with research projects and developed study protocols in the department of Hospital Epidemiology and Infection Control. Created MS Access front end/SQL Server 2000 backend databases for data collection and analysis on research studies. Conducted trainings on nosocomial infections and infection control for clinical staff at Johns Hopkins Hospital. Collected environmental samples from patients for analysis. Obtained Institutional Review Board approval for research projects."
+    },
+    {
+        "company": "SPARK Partnership for Service",
+        "position": "Office Manager",
+        "website": "http://www.sparkpfs.org/",
+        "startDate": "2004-06-01",
+        "endDate": "2004-09-01",
+        "summary": "Organized meetings and day-to-day office activities. Maintained network server and provided technical support to staff. Ordered and inventoried all office supplies and training materials."
+    },
+    {
+        "company": "Mazzoni Center",
+        "position": "HIV Prevention Counselor",
+        "website": "http://mazzonicenter.org",
+        "startDate": "2002-08-01",
+        "endDate": "2004-05-30",
+        "summary": "Coordinated the implementation of an in-agency rapid HIV testing initiative. Assisted Mazzoni Center in obtaining State of Pennsylvania Level 2 laboratory certification for the administering of exams for blood-borne diseases.  Worked with clinical staff on development of rapid HIV testing procedures and trained clinic staff on protocols.  Sat on a municipal working group to implement rapid testing across Philadelphia. Provided individual HIV counseling and testing services to a diverse clientele at an HIV clinic and at off-site locations.  Maintained MS Access client referral database."
+    },
+    {
+        "company": "Bryn Mawr College",
+        "position": "Hall Advisor",
+        "website": "https://brynmawr.edu",
+        "startDate": "2000-08-15",
+        "endDate": "2002-05-15",
+        "summary": "Organized hall activities and served as a resource to dorm residents."
+    },
+    {
+        "company": "Bryn Mawr College",
+        "position": "Teaching Assistant",
+        "website": "https://brynmawr.edu",
+        "startDate": "2002-01-15",
+        "endDate": "2002-05-15",
+        "summary": "Proctored examinations and assisted students in physical anthropology lab sessions. Assisted professor in grading of mid-term and semester examinations. Was responsible for human skeletal remains and replicas for laboratory use."
+    },
+    {
+        "company": "University of Pennsylvania Museum of Archaeology and Anthropology",
+        "position": "Intern",
+        "website": "",
+        "startDate": "2001-05-15",
+        "endDate": "2001-08-30",
+        "summary":  "Reorganized skeletal collections in physical anthropology section. Made ancient and modern skeletal replicas for educational use at the University of Pennsylvania casting program. Created digital catalog of modern human skeletal remains for the Museum. Completed digital documentation of the Samuel Morton skeletal collection at the University of Pennsylvania."
+    },
+    {
+        "company": "Lavender Youth Recreation and Information Center",
+        "position": "Intern",
+        "website": "",
+        "startDate": "2000-06-20",
+        "endDate": "2000-08-30",
+        "summary": "Assisted in organization of youth LBGT conference, donor library, and in the development of a youth outreach program through art.  Assisted in development of website for conferences, programs, and organization initiatives using DreamWeaver and Fireworks software packages. Led beginning PC skills classes for youth in afternoon drop-in center."
     }
-
-    }
-
-
   ],
   "training": [
     {
