@@ -32,19 +32,29 @@
       "company": "Elastic, N.V.",
       "position": "Senior Engineering Manager",
       "website":"https://elastic.co",
-      "startDate": "2020-08-24",
+      "startDate": "2022-05-01",
       "endDate": "",
       "summary": "Holds regular 1:1s with IC, fellow team leads, and stakeholders. Driving initiatives, motivating teams to build integrations, automations, and bespoke tooling. Assisted in writing FedRAMP, SOX, and PCI compliance narratives. Drove implementation of serverless product delivery process. Coordinate engineering-wide holiday blackout periods. Ran Cloud product release process for 3 years. Serves as incident commander in on call rotation. Manages on call and host of the week rotations for department. Runs monthly departmental meetings. ",
       "highlights": [
         "Lead team that introduced new standard for cloud product delivery",
-        "Led initiative to improve fleet automation",
-        "Guest for Screaming at the Cloud podcast - 2020",
-        "Guest on CodeNewbie podcast - 2021",
-        "Spoke at ElasticON Global - 2021",
         "Guest on Maintainable podcast - 2022",
         "Speaker at Philly Emerging Technologies for the Enterprise (Philly ETE) - 2022",
         "Featured in Elastic Blog July - 2023",
         "PowerToFly Panel on Women in Leadership - 2024"
+      ]
+    },
+    {
+      "company": "National Geographic Society",
+      "position": "Engineering Manager",
+      "website": "https://www.nationalgeographic.com",
+      "startDate": "2020-08-24",
+      "endDate": "2022-04-30",
+      "summary":"",
+      "highlights": [
+      "Led initiative to improve fleet automation",
+      "Guest for Screaming at the Cloud podcast - 2020",
+      "Guest on CodeNewbie podcast - 2021",
+      "Spoke at ElasticON Global - 2021",
       ]
     },
     {
