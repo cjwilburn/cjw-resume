@@ -18,11 +18,10 @@ Manages on call and host of the week rotations for department. Examines metrics 
 
 Runs monthly departmental meetings.
 
-Managed Tooling & Developer Experience teams.
-Managed 8 directs: 7 individual contributors and 1 engineering manager, and 4 skip-level individual contributors in globally discributed team. Oversaw development of next generation development environments for SaaS product deliver, written in Golang.
+Managed Tooling & Developer Experience teams - Managed 8 directs: 7 individual contributors and 1 engineering manager, and 4 skip-level individual contributors in globally discributed team. Oversaw development of next generation development environments for SaaS product deliver, written in Golang.
 
 
 Engineering Manager
-Assumed role of lead of cloud hosted release resiliency effort. Brought together cross-functional group of team and technical leadership to raise and escalate issues affecting our SaaS hosted product release process. Drove effort to bring funtional parity of lower SaaS environments to that of SaaS production. Tracked SaaS release KPIs.
+Managed direct team of 9 individual contributors. Coached 3 senior engineers to reach Principal Engineer I, Coached 2 mid-level engineers to reach senior engineer. Coached Principal Engineer I to reach Principal Engineer II. Assumed role of lead of cloud hosted release resiliency effort. Brought together cross-functional group of team and technical leadership to raise and escalate issues affecting our SaaS hosted product release process. Drove effort to bring funtional parity of lower SaaS environments to that of SaaS production. Tracked SaaS release KPIs.
 
-Managed direct team of 9 individual contributors. Coached 3 senior engineers to reach Principal Engineer I, Coached 2 mid-level engineers to reach senior engineer. Coached Principal Engineer I to reach Principal Engineer II.
+
