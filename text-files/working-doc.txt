@@ -1,0 +1,28 @@
+Holds regular 1:1s with IC, fellow team leads, and stakeholders. 1:1s with individual contributors to discuss ongoing work, provide coaching, mentorship, and explore opportunities for professional/career development. Meeting with fellow team leads to align on goals, share technical and administrative roadmaps, and discuss cross functional project work. Meeting with stakeholders to share project status updates, address areas of concern if they arise, and collaborate on cross-functional work. Driving initiatives, motivating teams to build integrations, automations, and bespoke tooling. Started cross-functional initiative to improve rate of success of cloud API-based automated fleet operations. Improvement went from 95% of hosts to 99.7% in 18 months. 
+
+Assisted in writing and revising FedRAMP, SOX, and PCI compliance narratives. Updated narratives to include changes made to SaaS delivery and change management processes as they happened. Participated in annual compliance audits.
+
+Architected component-based release paradigm to enable movement away from a timely and costly monolithic SaaS release process. 
+
+Drove implementation of serverless product delivery process. Drove implementation of ArgoCD, Argo Workflows, and Argo Events to deploy applications and services for Elastic Serverless product release. Drove development of gpctl, tool written in golang, that facilitated the Servrless release process by promoting artifacts across SaaS environments using a gitops model.
+
+Devised and coordinated engineering-wide holiday change freeze (FKA blackout) periods. 
+Coordinated with SaaS service development teams to make sure that delivery of critical service updates and infrastructure were unaffected by pauses to feature work during holidays. Cooridnated end-of-year on-call support rotations for infrastructure and release.
+
+Directed Cloud product release process for 3 years. Implemented hotfix release policy that allowed for increased SaaS service release cadence and enabled teams to shift left on service deployment operations. Drove operational and engineering improvments that took the SaaS release process from 3 months of manual work to a three-week automated process.
+
+Serves as incident commander in on call rotation. Participates in 12x2 incident command rotation. Consolidates and delivers communications to internal and external customers.  Coordinates delivery of root cause analysis documents. Organizes incident retrospectives. 
+
+
+Manages on call and host of the week rotations for department. Examines metrics to identify and reduce alert noise. Coordinates changes to rotation to support staffing adjustments and continue to address customer needs.
+
+Runs monthly departmental meetings.
+
+Managed Tooling & Developer Experience teams.
+Managed 8 directs: 7 individual contributors and 1 engineering manager, and 4 skip-level individual contributors in globally discributed team. Oversaw development of next generation development environments for SaaS product deliver, written in Golang.
+
+
+Engineering Manager
+Assumed role of lead of cloud hosted release resiliency effort. Brought together cross-functional group of team and technical leadership to raise and escalate issues affecting our SaaS hosted product release process. Drove effort to bring funtional parity of lower SaaS environments to that of SaaS production. Tracked SaaS release KPIs.
+
+Managed direct team of 9 individual contributors. Coached 3 senior engineers to reach Principal Engineer I, Coached 2 mid-level engineers to reach senior engineer. Coached Principal Engineer I to reach Principal Engineer II.
