@@ -1,0 +1,46 @@
+training:
+  - organization: Johns Hopkins University
+    title: Research Coordinator Certification
+    date: 2004-12-01
+    summary: ""
+    courses:
+      - History of Medical Research
+      - Obtaining Approval for Research from Institution Review Boards
+      - Obtaining Informed Consent from Study Participants
+      - The Importance of Community Involvement in Medical Research
+  - organization: Johns Hopkins University
+    title: Querying a Transact SQL Server 2000 Database
+    date: "2005-03-01"
+    summary: ""
+    courses: []
+  - organization: Johns Hopkins University
+    title: Administering a SQL Server 2000 Database with Transact SQL
+    date: "2005-04-01"
+    summary: SQL Server administration
+    courses: []
+  - organization: Johns Hopkins University
+    title: Programming a SQL Server 2000 Database with Transact SQL
+    date: "2005-06-01"
+    summary: Advanced SQL Server skills
+    courses: []
+  - organization: University of Pennsylvania School of Medicine
+    title: Epic Care Tools
+    date: "2008-12-01"
+    summary: Global movement of free coding clubs for young people.
+    courses: []
+  - organization: University of Pennsylvania School of Medicine
+    title: Epic Care Advanced Course
+    date: "2008-11-01"
+    summary: Global movement of free coding clubs for young people.
+    courses:
+      - History of Medical Research
+      - Obtaining Approval for Research from Institution Review Boards
+      - Obtaining Informed Consent from Study Participants
+  - organization: University of Pennsylvania School of Medicine
+    title: EpicCare Electronic Medical Record System for Providers
+    date: "2008-09-01"
+    summary: Global movement of free coding clubs for young people.
+    courses:
+      - History of Medical Research
+      - Obtaining Approval for Research from Institution Review Boards
+      - Obtaining Informed Consent from Study Participants
